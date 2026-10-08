@@ -51,6 +51,13 @@ ROUND2_SEED_RUNS = [
     {"name": "r2_nested_M32_all_e6__learned", "reuse_scp": "r2_nested_M32_all_e6", "reuse_scp_seed": 42,
      "e2e": {"train_alloc": "learned", "train_totals": "32,64"}},
 ]
+# Single-sample ablation: the budget head trained with ONE sampled split per question (moving-average baseline)
+# instead of two (leave-one-out baseline), on the same final-configuration compressor (seed 42). Tests whether the
+# gain from training with the budget head comes from averaging the answer loss over two splits per question.
+ROUND2_S1_RUNS = [
+    {"name": "r2_nested_M32_all_e6__learned_S1", "reuse_scp": "r2_nested_M32_all_e6", "reuse_scp_seed": 42,
+     "e2e": {"train_alloc": "learned", "train_totals": "32,64", "budget_samples": 1}},
+]
 ABLATION_RUNS = [
     {"name": "nested_M32__learned_ent0", "reuse_scp": "nested_M32",
      "e2e": {"train_alloc": "learned", "train_totals": "32,64", "entropy_coef": 0.0}},
@@ -75,7 +82,7 @@ def build_parser():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--backbones", default="qwen,t5")
     p.add_argument("--datasets", default="hotpotqa,2wiki")
-    p.add_argument("--preset", choices=["main", "ablations", "round2", "round2_seeds"], default="main")
+    p.add_argument("--preset", choices=["main", "ablations", "round2", "round2_seeds", "round2_s1"], default="main")
     p.add_argument("--diagnose", action="store_true",
                    help="after each evaluation, also run the memory diagnostic (no / wrong / gold memory)")
     p.add_argument("--n_train", type=int, default=300)
@@ -127,7 +134,7 @@ def main(args):
         return
 
     amp = ["--amp", args.amp]
-    runs = {"round2": ROUND2_RUNS, "round2_seeds": ROUND2_SEED_RUNS}.get(
+    runs = {"round2": ROUND2_RUNS, "round2_seeds": ROUND2_SEED_RUNS, "round2_s1": ROUND2_S1_RUNS}.get(
         args.preset, MAIN_RUNS + (ABLATION_RUNS if args.preset == "ablations" else []))
     for seed in parse_int_list(args.seeds):
         for bb in parse_str_list(args.backbones):

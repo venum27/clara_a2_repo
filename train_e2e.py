@@ -179,7 +179,9 @@ def main(args):
     model.save(out, extra_meta={**{k: v for k, v in meta.items() if k not in model.meta()},
                                 "stage": "e2e", "k": args.k, "total_budget": args.total_budget,
                                 "train_alloc": args.train_alloc, "r_score": r, "tau": args.tau,
-                                "train_totals": totals if learned else None})
+                                "train_totals": totals if learned else None,
+                                "budget_samples": args.budget_samples if learned else None,
+                                "entropy_coef": args.entropy_coef if learned else None})
     if learned:
         save_head(head, os.path.join(out, "budget_head.pt"))
     write_json(log, os.path.join(out, "train_log.json"))

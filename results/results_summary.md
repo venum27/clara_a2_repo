@@ -11,6 +11,9 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | 2wiki | nested_M32__learned_s42 | 20.5 | 21.8 | 22.1 | 22.6 |
 | qwen | 2wiki | nested_M32_s42 | 20.5 | 21.8 | 22.1 | 22.6 |
 | qwen | 2wiki | r2_fixed_M16_e6_s42 | 13.8 | 17.0 | 27.9 | - |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s42 | 21.6 | 23.8 | 25.7 | 26.6 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s43 | 21.6 | 23.8 | 25.7 | 26.6 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s44 | 21.6 | 23.8 | 25.7 | 26.6 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s42 | 21.6 | 23.8 | 25.7 | 26.6 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s43 | 21.6 | 23.8 | 25.7 | 26.6 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s44 | 21.6 | 23.8 | 25.7 | 26.6 |
@@ -22,6 +25,9 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | hotpotqa | nested_M32__learned_s42 | 16.5 | 15.8 | 16.4 | 16.2 |
 | qwen | hotpotqa | nested_M32_s42 | 16.5 | 15.8 | 16.4 | 16.2 |
 | qwen | hotpotqa | r2_fixed_M16_e6_s42 | 18.5 | 19.6 | 21.8 | - |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s42 | 19.4 | 19.6 | 19.3 | 18.9 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s43 | 19.4 | 19.6 | 19.3 | 18.9 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s44 | 19.4 | 19.6 | 19.3 | 18.9 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s42 | 19.4 | 19.6 | 19.3 | 18.9 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s43 | 19.4 | 19.6 | 19.3 | 18.9 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s44 | 19.4 | 19.6 | 19.3 | 18.9 |
@@ -44,6 +50,9 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | 2wiki | nested_M32__learned_s42 | 24.9 / 1.7 | 58.3 / 12.0 | 30.3 / 3.0 | 65.7 / 20.7 |
 | qwen | 2wiki | nested_M32_s42 | 24.9 / 1.7 | 58.3 / 12.0 | 30.3 / 3.0 | 66.7 / 23.0 |
 | qwen | 2wiki | r2_fixed_M16_e6_s42 | 24.9 / 1.7 | 58.3 / 12.0 | 15.3 / 1.3 | 64.0 / 21.3 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s42 | 24.9 / 1.7 | 58.3 / 12.0 | 27.0 / 1.7 | 70.3 / 24.0 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s43 | 24.9 / 1.7 | 58.3 / 12.0 | 27.0 / 1.7 | 70.3 / 21.7 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s44 | 24.9 / 1.7 | 58.3 / 12.0 | 27.0 / 1.7 | 67.0 / 23.3 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s42 | 24.9 / 1.7 | 58.3 / 12.0 | 27.0 / 1.7 | 69.3 / 23.0 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s43 | 24.9 / 1.7 | 58.3 / 12.0 | 27.0 / 1.7 | 71.7 / 25.7 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s44 | 24.9 / 1.7 | 58.3 / 12.0 | 27.0 / 1.7 | 69.3 / 22.7 |
@@ -55,6 +64,9 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | hotpotqa | nested_M32__learned_s42 | 20.1 / 2.2 | 68.7 / 20.7 | 44.7 / 13.3 | 55.3 / 19.0 |
 | qwen | hotpotqa | nested_M32_s42 | 20.1 / 2.2 | 68.7 / 20.7 | 44.7 / 13.3 | 58.3 / 21.3 |
 | qwen | hotpotqa | r2_fixed_M16_e6_s42 | 20.1 / 2.2 | 68.7 / 20.7 | 37.3 / 7.3 | 52.7 / 15.0 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s42 | 20.1 / 2.2 | 68.7 / 20.7 | 39.0 / 10.0 | 57.3 / 19.3 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s43 | 20.1 / 2.2 | 68.7 / 20.7 | 39.0 / 10.0 | 61.7 / 22.0 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s44 | 20.1 / 2.2 | 68.7 / 20.7 | 39.0 / 10.0 | 56.3 / 17.3 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s42 | 20.1 / 2.2 | 68.7 / 20.7 | 39.0 / 10.0 | 57.3 / 20.3 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s43 | 20.1 / 2.2 | 68.7 / 20.7 | 39.0 / 10.0 | 55.0 / 18.7 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s44 | 20.1 / 2.2 | 68.7 / 20.7 | 39.0 / 10.0 | 59.3 / 19.0 |
@@ -77,6 +89,9 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | 2wiki | nested_M32__learned_s42 | 37.0 | 37.3 | 37.3 | 37.5 | +0.5 [-0.3, +1.5] | +0.2 [-1.2, +1.5] | 23.5 / 490.0 |
 | qwen | 2wiki | nested_M32_s42 | 36.5 | 37.1 | 36.9 | - | - | - | 23.5 / 490.0 |
 | qwen | 2wiki | r2_fixed_M16_e6_s42 | 37.7 | 37.7 | 37.7 | - | - | - | 23.5 / 490.0 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s42 | 38.3 | 38.9 | 38.9 | 38.6 | +0.3 [-1.0, +1.7] | -0.3 [-1.9, +1.3] | 23.5 / 490.0 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s43 | 38.3 | 37.4 | 37.5 | 38.3 | +0.0 [+0.0, +0.0] | +0.9 [-0.1, +2.2] | 23.5 / 490.0 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s44 | 39.1 | 39.9 | 39.7 | 39.1 | -0.0 [-1.4, +1.4] | -0.8 [-2.3, +0.6] | 23.5 / 490.0 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s42 | 37.4 | 37.9 | 37.9 | 37.4 | +0.0 [+0.0, +0.0] | -0.5 [-1.9, +0.8] | 23.5 / 490.0 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s43 | 41.2 | 40.2 | 40.4 | 40.6 | -0.6 [-1.8, +0.5] | +0.4 [-0.1, +0.9] | 23.5 / 490.0 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s44 | 40.4 | 40.2 | 40.0 | 40.4 | +0.0 [+0.0, +0.0] | +0.2 [-1.2, +1.6] | 23.5 / 490.0 |
@@ -88,6 +103,9 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | hotpotqa | nested_M32__learned_s42 | 21.3 | 20.9 | 21.1 | 20.7 | -0.6 [-1.5, +0.1] | -0.3 [-0.7, +0.2] | 21.7 / 527.9 |
 | qwen | hotpotqa | nested_M32_s42 | 19.8 | 20.4 | 20.5 | - | - | - | 21.7 / 527.9 |
 | qwen | hotpotqa | r2_fixed_M16_e6_s42 | 21.9 | 21.9 | 21.9 | - | - | - | 21.7 / 527.9 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s42 | 20.8 | 19.5 | 19.7 | 20.8 | +0.0 [+0.0, +0.0] | +1.3 [-0.3, +3.0] | 21.7 / 527.9 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s43 | 20.6 | 21.0 | 20.8 | 20.6 | +0.0 [+0.0, +0.0] | -0.4 [-1.4, +0.5] | 21.7 / 527.9 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s44 | 20.7 | 21.4 | 21.4 | 20.7 | +0.0 [+0.0, +0.0] | -0.7 [-2.6, +1.1] | 21.7 / 527.9 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s42 | 21.4 | 21.7 | 21.6 | 21.5 | +0.1 [-0.4, +0.6] | -0.2 [-1.7, +1.1] | 21.7 / 527.9 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s43 | 19.3 | 18.9 | 18.9 | 18.3 | -1.0 [-2.2, -0.1] | -0.6 [-2.0, +0.7] | 21.7 / 527.9 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s44 | 19.5 | 19.7 | 19.7 | 19.5 | +0.0 [+0.0, +0.0] | -0.2 [-1.4, +1.1] | 21.7 / 527.9 |
@@ -106,10 +124,16 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | Backbone | Dataset | Run | by rank slot | gold documents | other documents |
 |---|---|---|---|---|---|
 | qwen | 2wiki | nested_M32__learned_s42 | [14.6, 12.0, 29.4, 8.0] | 16.3 | 15.8 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s42 | [17.1, 16.7, 16.1, 14.1] | 17.5 | 14.7 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s43 | [16.0, 16.0, 16.0, 16.0] | 16.0 | 16.0 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s44 | [15.8, 14.7, 17.0, 16.5] | 15.1 | 16.7 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s42 | [16.0, 16.0, 16.0, 16.0] | 16.0 | 16.0 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s43 | [23.0, 20.3, 10.3, 10.4] | 19.1 | 13.4 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s44 | [16.0, 16.0, 16.0, 16.1] | 16.0 | 16.0 |
 | qwen | hotpotqa | nested_M32__learned_s42 | [9.5, 21.8, 22.3, 10.4] | 14.9 | 16.6 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s42 | [16.0, 16.0, 16.0, 16.0] | 16.0 | 16.0 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s43 | [16.0, 16.0, 16.0, 16.0] | 16.0 | 16.0 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s44 | [16.0, 16.0, 16.0, 16.0] | 16.0 | 16.0 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s42 | [15.3, 15.5, 17.4, 15.8] | 15.6 | 16.2 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s43 | [24.6, 13.1, 8.0, 18.3] | 18.7 | 14.6 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s44 | [16.0, 16.0, 16.0, 16.0] | 16.0 | 16.0 |
@@ -130,6 +154,15 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | 2wiki | nested_M32_s42 | top_heavy | 35.9 | 35.6 | 37.1 | 35.5 |
 | qwen | 2wiki | r2_fixed_M16_e6_s42 | uniform | 36.3 | 36.5 | 37.7 | 37.7 |
 | qwen | 2wiki | r2_fixed_M16_e6_s42 | top_heavy | 36.3 | 37.9 | 37.7 | 37.7 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s42 | uniform | 37.9 | 39.0 | 38.3 | 37.8 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s42 | top_heavy | 37.9 | 39.5 | 38.9 | 37.8 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s42 | learned | 37.9 | 39.0 | 38.6 | 37.8 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s43 | uniform | 36.5 | 38.4 | 38.3 | 38.8 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s43 | top_heavy | 36.5 | 37.8 | 37.4 | 38.8 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s43 | learned | 36.5 | 37.2 | 38.3 | 38.8 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s44 | uniform | 37.1 | 37.6 | 39.1 | 40.3 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s44 | top_heavy | 37.1 | 38.4 | 39.9 | 40.3 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s44 | learned | 37.1 | 37.6 | 39.1 | 40.3 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s42 | uniform | 35.8 | 36.2 | 37.4 | 37.3 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s42 | top_heavy | 35.8 | 38.0 | 37.9 | 37.3 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s42 | learned | 35.8 | 36.2 | 37.4 | 37.3 |
@@ -155,6 +188,15 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | hotpotqa | nested_M32_s42 | top_heavy | 19.1 | 21.0 | 20.4 | 20.9 |
 | qwen | hotpotqa | r2_fixed_M16_e6_s42 | uniform | 20.6 | 22.3 | 21.9 | 21.9 |
 | qwen | hotpotqa | r2_fixed_M16_e6_s42 | top_heavy | 20.6 | 21.7 | 21.9 | 21.9 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s42 | uniform | 20.7 | 21.8 | 20.8 | 20.3 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s42 | top_heavy | 20.7 | 21.1 | 19.5 | 20.3 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s42 | learned | 20.7 | 21.0 | 20.8 | 20.3 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s43 | uniform | 20.8 | 20.9 | 20.6 | 21.6 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s43 | top_heavy | 20.8 | 20.3 | 21.0 | 21.6 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s43 | learned | 20.8 | 19.3 | 20.6 | 21.6 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s44 | uniform | 21.1 | 22.5 | 20.7 | 22.6 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s44 | top_heavy | 21.1 | 21.4 | 21.4 | 22.6 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s44 | learned | 21.1 | 22.2 | 20.7 | 22.6 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s42 | uniform | 21.7 | 23.0 | 21.4 | 20.4 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s42 | top_heavy | 21.7 | 23.0 | 21.7 | 20.4 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s42 | learned | 21.7 | 22.7 | 21.5 | 20.4 |
@@ -193,12 +235,14 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | 2wiki | nested_M32__learned_s42: learned@64 | 34.2 | 37.5 | +3.3 [-1.7, +8.6] | 0.088 |
 | qwen | 2wiki | nested_M32_s42: top_heavy@64 | 34.2 | 37.1 | +2.9 [-2.0, +8.0] | 0.134 |
 | qwen | 2wiki | r2_fixed_M16_e6_s42: uniform@64 | 34.2 | 37.7 | +3.5 [-1.2, +8.5] | 0.070 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1_s42: learned@64 | 34.2 | 38.6 | +4.4 [-0.3, +9.2] | 0.034 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned_s42: learned@64 | 34.2 | 37.4 | +3.2 [-1.8, +8.3] | 0.113 |
 | qwen | 2wiki | r2_nested_M32_all_e6_s42: top_heavy@64 | 34.2 | 35.8 | +1.6 [-3.6, +7.2] | 0.288 |
 | qwen | hotpotqa | fixed_M16_s42: uniform@64 | 18.3 | 21.4 | +3.1 [-0.6, +7.1] | 0.051 |
 | qwen | hotpotqa | nested_M32__learned_s42: learned@64 | 18.3 | 20.7 | +2.3 [-1.8, +6.3] | 0.123 |
 | qwen | hotpotqa | nested_M32_s42: top_heavy@64 | 18.3 | 20.4 | +2.0 [-1.8, +5.8] | 0.138 |
 | qwen | hotpotqa | r2_fixed_M16_e6_s42: uniform@64 | 18.3 | 21.9 | +3.6 [-0.2, +7.5] | 0.027 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1_s42: learned@64 | 18.3 | 20.8 | +2.5 [-1.3, +6.9] | 0.091 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned_s42: learned@64 | 18.3 | 21.5 | +3.2 [-0.7, +7.3] | 0.053 |
 | qwen | hotpotqa | r2_nested_M32_all_e6_s42: top_heavy@64 | 18.3 | 19.7 | +1.4 [-2.7, +6.1] | 0.263 |
 
@@ -213,6 +257,7 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | 2wiki | r2_fixed_M16_e6 | 1 | 13.8 | 27.9 | 64.0 | 48.7 | 37.7 | 37.7 | - | - | 1.4 | - | 0.0 | - | +5.0 |
 | qwen | 2wiki | r2_nested_M32_all_e6 | 3 | 21.6 +- 0.0 | 25.7 +- 0.0 | 65.1 +- 1.3 | 38.1 +- 1.3 | 36.8 +- 2.1 | 36.5 +- 0.6 | - | - | -0.4 +- 0.6 | - | -0.3 +- 1.6 | - | +3.7 +- 1.4 |
 | qwen | 2wiki | r2_nested_M32_all_e6__learned | 3 | 21.6 +- 0.0 | 25.7 +- 0.0 | 70.1 +- 1.3 | 43.1 +- 1.3 | 39.7 +- 2.0 | 39.4 +- 1.3 | 39.5 +- 1.8 | 17.0 / 15.1 | 0.7 +- 1.0 | 0.0 +- 0.0 | -0.2 +- 0.7 | -0.2 +- 0.3 | +5.2 +- 1.9 |
+| qwen | 2wiki | r2_nested_M32_all_e6__learned_S1 | 3 | 21.6 +- 0.0 | 25.7 +- 0.0 | 69.2 +- 1.9 | 42.2 +- 1.9 | 38.6 +- 0.5 | 38.7 +- 1.3 | 38.7 +- 0.4 | 16.2 / 15.8 | 0.3 +- 0.7 | -0.4 +- 0.7 | 0.2 +- 0.9 | 0.1 +- 0.2 | +3.7 +- 1.8 |
 | qwen | hotpotqa | clara_official_CR16 | 1 | - | - | 57.0 | - | 18.3 | - | - | - | - | - | - | - | - |
 | qwen | hotpotqa | fixed_M16 | 1 | 13.0 | 18.8 | 63.0 | 15.3 | 21.4 | 21.4 | - | - | 3.6 | - | 0.0 | - | +6.7 |
 | qwen | hotpotqa | nested_M32 | 1 | 16.5 | 16.4 | 58.3 | 13.7 | 19.8 | 20.4 | - | - | -0.1 | - | 0.6 | - | +4.2 |
@@ -220,6 +265,7 @@ F1 (%) unless stated. Per-run details and confidence intervals are in each run's
 | qwen | hotpotqa | r2_fixed_M16_e6 | 1 | 18.5 | 21.8 | 52.7 | 15.3 | 21.9 | 21.9 | - | - | -0.6 | - | 0.0 | - | +5.6 |
 | qwen | hotpotqa | r2_nested_M32_all_e6 | 3 | 19.4 +- 0.0 | 19.3 +- 0.0 | 57.8 +- 2.6 | 18.8 +- 2.6 | 19.7 +- 1.1 | 19.9 +- 0.9 | - | - | -0.7 +- 1.2 | - | 0.2 +- 0.7 | - | +5.3 +- 1.5 |
 | qwen | hotpotqa | r2_nested_M32_all_e6__learned | 3 | 19.4 +- 0.0 | 19.3 +- 0.0 | 57.2 +- 2.2 | 18.2 +- 2.2 | 20.1 +- 1.2 | 20.1 +- 1.5 | 19.8 +- 1.6 | 16.8 / 15.6 | -0.0 +- 0.6 | 0.4 +- 1.0 | 0.0 +- 0.4 | -0.3 +- 0.6 | +4.9 +- 0.3 |
+| qwen | hotpotqa | r2_nested_M32_all_e6__learned_S1 | 3 | 19.4 +- 0.0 | 19.3 +- 0.0 | 58.4 +- 2.8 | 19.4 +- 2.8 | 20.7 +- 0.1 | 20.7 +- 1.0 | 20.7 +- 0.1 | 16.0 / 16.0 | -0.8 +- 0.3 | -0.9 +- 0.6 | -0.1 +- 1.1 | 0.0 +- 0.0 | +4.9 +- 0.8 |
 | t5 | 2wiki | fixed_M16 | 1 | 10.1 | 9.6 | 54.7 | 15.7 | 37.7 | 37.7 | - | - | 0.2 | - | 0.0 | - | +1.3 |
 | t5 | 2wiki | nested_M32 | 1 | 9.5 | 9.1 | 55.3 | 12.7 | 38.2 | 38.9 | - | - | -0.4 | - | 0.7 | - | +1.3 |
 | t5 | 2wiki | nested_M32__learned | 1 | 9.5 | 9.1 | 53.0 | 10.3 | 37.8 | 38.0 | 37.8 | 16.0 / 16.0 | 0.7 | 0.9 | 0.1 | 0.0 | +2.0 |
