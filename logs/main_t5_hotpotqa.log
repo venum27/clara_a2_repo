@@ -1,0 +1,125 @@
+######## seed 42 | t5 | hotpotqa | nested_M32
+[SCP nested] t5/hotpotqa: 1353 passages | prefixes [4, 8, 16, 32] | trainable params 7,102,464 | device cuda
+SCP epoch 1/3: 100%|██████████| 1353/1353 [22:02<00:00,  1.02it/s]
+  epoch 1: CE by prefix m=4:3.332 m=8:3.444 m=16:3.392 m=32:3.369 | MSE 0.0057
+SCP epoch 2/3: 100%|██████████| 1353/1353 [25:41<00:00,  1.14s/it]
+  epoch 2: CE by prefix m=4:3.165 m=8:3.133 m=16:3.174 m=32:3.184 | MSE 0.0029
+SCP epoch 3/3: 100%|██████████| 1353/1353 [28:52<00:00,  1.28s/it]
+/home/venugopala.m/clara_nested/nclara/modeling.py:208: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(os.path.join(in_dir, "lora_state.pt"), map_location=self.device)
+/home/venugopala.m/clara_nested/nclara/modeling.py:215: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  mem = torch.load(os.path.join(in_dir, "mem_embeddings.pt"), map_location=self.device)
+  epoch 3: CE by prefix m=4:3.092 m=8:3.115 m=16:3.083 m=32:3.102 | MSE 0.0025
+  adapter changes since start: compressor 96/288, generator 288/288, query_reasoner 0/288
+  saved -> runs/t5/hotpotqa/nested_M32_s42/scp
+caching compressed passages: 100%|██████████| 998/998 [16:01<00:00,  1.04it/s]
+[E2E] 998 questions | 9736 cached passages | copied 288 tensors compressor->query_reasoner | k=4 | r=16 | budget=64 policies=['uniform', 'top_heavy']
+E2E epoch 1/3: 100%|██████████| 998/998 [06:37<00:00,  2.51it/s]
+  epoch 1: loss 2.814 | train hit@4 86.7% | all-gold@4 39.4%
+E2E epoch 2/3: 100%|██████████| 998/998 [06:16<00:00,  2.65it/s]
+  epoch 2: loss 2.679 | train hit@4 87.4% | all-gold@4 41.1%
+E2E epoch 3/3: 100%|██████████| 998/998 [06:10<00:00,  2.70it/s]
+  epoch 3: loss 2.627 | train hit@4 87.3% | all-gold@4 40.2%
+  compressor changed 0/288 (expect 0) | query_reasoner 96/288 | generator 288/288
+  saved -> runs/t5/hotpotqa/nested_M32_s42/e2e
+scp_curve: 100%|██████████| 147/147 [10:00<00:00,  4.09s/it]
+compressing eval passages: 100%|██████████| 300/300 [05:27<00:00,  1.09s/it]
+Token indices sequence length is longer than the specified maximum sequence length for this model (681 > 512). Running this sequence through the model will result in indexing errors
+oracle: 100%|██████████| 300/300 [05:56<00:00,  1.19s/it]
+qa: 100%|██████████| 300/300 [08:32<00:00,  1.71s/it]
+results -> runs/t5/hotpotqa/nested_M32_s42/results/eval.json and summary.md
+######## seed 42 | t5 | hotpotqa | nested_M32__learned
+caching compressed passages:  97%|█████████▋| 972/998 [13:15<00:21,  1.22it/s]
+Traceback (most recent call last):
+  File "/home/venugopala.m/clara_nested/run_pipeline.py", line 146, in <module>
+    main(build_parser().parse_args())
+  File "/home/venugopala.m/clara_nested/run_pipeline.py", line 135, in main
+    call(train_e2e, argv + tiny)
+  File "/home/venugopala.m/clara_nested/run_pipeline.py", line 81, in call
+    return module.main(module.build_parser().parse_args(argv))
+  File "/home/venugopala.m/clara_nested/train_e2e.py", line 105, in main
+    cache[ptxt] = model.compress(ptxt, "compressor")[0].detach()
+  File "/home/venugopala.m/clara_nested/nclara/modeling.py", line 390, in compress
+    h = self._encoder()(inputs_embeds=x, attention_mask=mask).last_hidden_state[0]
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/models/t5/modeling_t5.py", line 1106, in forward
+    layer_outputs = layer_module(
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/models/t5/modeling_t5.py", line 746, in forward
+    hidden_states = self.layer[-1](hidden_states)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/models/t5/modeling_t5.py", line 335, in forward
+    forwarded_states = self.DenseReluDense(forwarded_states)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/models/t5/modeling_t5.py", line 318, in forward
+    hidden_states = self.wo(hidden_states)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/venugopala.m/.local/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacity of 44.40 GiB of which 23.62 MiB is free. Process 1528544 has 26.16 GiB memory in use. Including non-PyTorch memory, this process has 6.41 GiB memory in use. Process 2910051 has 11.76 GiB memory in use. Of the allocated memory 5.44 GiB is allocated by PyTorch, and 429.78 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+/home/venugopala.m/clara_nested/nclara/modeling.py:208: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(os.path.join(in_dir, "lora_state.pt"), map_location=self.device)
+/home/venugopala.m/clara_nested/nclara/modeling.py:215: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  mem = torch.load(os.path.join(in_dir, "mem_embeddings.pt"), map_location=self.device)
+######## seed 42 | t5 | hotpotqa | nested_M32
+######## seed 42 | t5 | hotpotqa | nested_M32__learned
+caching compressed passages: 100%|██████████| 998/998 [13:02<00:00,  1.28it/s]
+[E2E] 998 questions | 9736 cached passages | copied 288 tensors compressor->query_reasoner | k=4 | r=16 | learned budgets, totals [32, 64], lengths [4, 8, 16, 32]
+E2E epoch 1/3: 100%|██████████| 998/998 [10:44<00:00,  1.55it/s]
+  epoch 1: loss 2.786 | train hit@4 87.2% | all-gold@4 39.8% | rank-1 share 0.25 | split entropy 1.67 | budget gold 12.1 vs other 12.3
+E2E epoch 2/3: 100%|██████████| 998/998 [10:52<00:00,  1.53it/s]
+  epoch 2: loss 2.694 | train hit@4 87.9% | all-gold@4 39.6% | rank-1 share 0.24 | split entropy 1.32 | budget gold 11.9 vs other 11.9
+E2E epoch 3/3: 100%|██████████| 998/998 [10:42<00:00,  1.55it/s]
+  epoch 3: loss 2.624 | train hit@4 88.5% | all-gold@4 41.5% | rank-1 share 0.25 | split entropy 1.00 | budget gold 12.0 vs other 12.1
+  compressor changed 0/288 (expect 0) | query_reasoner 96/288 | generator 288/288
+  saved -> runs/t5/hotpotqa/nested_M32__learned_s42/e2e
+scp_curve: 100%|██████████| 147/147 [09:50<00:00,  4.01s/it]
+compressing eval passages: 100%|██████████| 300/300 [03:56<00:00,  1.27it/s]
+Token indices sequence length is longer than the specified maximum sequence length for this model (681 > 512). Running this sequence through the model will result in indexing errors
+oracle: 100%|██████████| 300/300 [06:17<00:00,  1.26s/it]
+/home/venugopala.m/clara_nested/nclara/budget.py:90: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(path, map_location=device)
+qa: 100%|██████████| 300/300 [10:44<00:00,  2.15s/it]
+results -> runs/t5/hotpotqa/nested_M32__learned_s42/results/eval.json and summary.md
+######## seed 42 | t5 | hotpotqa | fixed_M16
+[SCP fixed] t5/hotpotqa: 1353 passages | prefixes [16] | trainable params 7,090,176 | device cuda
+SCP epoch 1/3: 100%|██████████| 1353/1353 [30:34<00:00,  1.36s/it]
+  epoch 1: CE by prefix m=16:3.368 | MSE 0.0044
+SCP epoch 2/3: 100%|██████████| 1353/1353 [27:38<00:00,  1.23s/it]
+  epoch 2: CE by prefix m=16:3.135 | MSE 0.0026
+SCP epoch 3/3: 100%|██████████| 1353/1353 [26:18<00:00,  1.17s/it]
+  epoch 3: CE by prefix m=16:3.080 | MSE 0.0022
+  adapter changes since start: compressor 96/288, generator 288/288, query_reasoner 0/288
+  saved -> runs/t5/hotpotqa/fixed_M16_s42/scp
+caching compressed passages: 100%|██████████| 998/998 [09:51<00:00,  1.69it/s]
+[E2E] 998 questions | 9736 cached passages | copied 288 tensors compressor->query_reasoner | k=4 | r=16 | budget=64 policies=['uniform']
+E2E epoch 1/3: 100%|██████████| 998/998 [06:06<00:00,  2.72it/s]
+  epoch 1: loss 2.816 | train hit@4 84.0% | all-gold@4 36.3%
+E2E epoch 2/3: 100%|██████████| 998/998 [05:58<00:00,  2.79it/s]
+  epoch 2: loss 2.689 | train hit@4 86.6% | all-gold@4 40.9%
+E2E epoch 3/3: 100%|██████████| 998/998 [05:57<00:00,  2.79it/s]
+  epoch 3: loss 2.621 | train hit@4 87.2% | all-gold@4 41.6%
+  compressor changed 0/288 (expect 0) | query_reasoner 96/288 | generator 288/288
+  saved -> runs/t5/hotpotqa/fixed_M16_s42/e2e
+scp_curve: 100%|██████████| 147/147 [06:58<00:00,  2.85s/it]
+compressing eval passages: 100%|██████████| 300/300 [03:57<00:00,  1.26it/s]
+Token indices sequence length is longer than the specified maximum sequence length for this model (681 > 512). Running this sequence through the model will result in indexing errors
+oracle: 100%|██████████| 300/300 [04:26<00:00,  1.12it/s]
+qa: 100%|██████████| 300/300 [05:52<00:00,  1.17s/it]
+results -> runs/t5/hotpotqa/fixed_M16_s42/results/eval.json and summary.md
+summary of 9 runs -> runs/results_summary.md

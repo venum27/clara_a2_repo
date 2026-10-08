@@ -1,0 +1,9 @@
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.44it/s]
+synth [hotpotqa]:   0%|          | 0/188 [00:00<?, ?it/s]/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:589: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+synth [hotpotqa]: 100%|██████████| 188/188 [1:16:27<00:00, 24.40s/it]
+[hotpotqa] 1500 passages | verified simple QA: 3998 | complex QA: 1256 | heldout passages: 147 -> data/hotpotqa_scp.json

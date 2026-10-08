@@ -1,0 +1,11 @@
+nohup: ignoring input
+[data] loaded hotpotqa/hotpot_qa (distractor, validation) from the cached Arrow files in /home/venugopala.m/.cache/huggingface/datasets/hotpotqa___hotpot_qa/distractor/0.0.0/1908d6afbbead072334abe2965f91bd2709910ab (7405 rows); the datasets library could not parse its metadata
+[hotpotqa] 1000 train / 300 eval -> data/hotpotqa_train.json, data/hotpotqa_eval.json
+[data] loaded framolfese/2WikiMultihopQA (default, validation) from the cached Arrow files in /home/venugopala.m/.cache/huggingface/datasets/framolfese___2_wiki_multihop_qa/default/0.0.0/fe713bfbd1afbca1a65246741a75890405d56a3a (12576 rows); the datasets library could not parse its metadata
+[2wiki] 1000 train / 300 eval -> data/2wiki_train.json, data/2wiki_eval.json
+  note: GPU 1 already has 9810 MiB in use and is 11% busy (other users?). Jobs still run; see ./scripts/00_check_gpus.sh
+synthesising hotpotqa on GPU 1
+  note: GPU 1 already has 5606 MiB in use and is 0% busy (other users?). Jobs still run; see ./scripts/00_check_gpus.sh
+synthesising 2wiki on GPU 1
+synthesis running on both GPUs (follow with: tail -f logs/synth_*.log); waiting...
+synthesis for 2wiki failed; see logs/synth_2wiki.log

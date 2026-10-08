@@ -1,0 +1,141 @@
+[hotpotqa] official CLaRa on the larger set (Monday 05 October 2026 04:27:19 PM IST)
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/venugopala.m/clara_nested/official_clara/.venv/lib/python3.10/site-packages/peft/tuners/tuners_utils.py:196: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+Initializing model from trained checkpoint: CLaRaConfig {
+  "_attn_implementation_autoset": true,
+  "ae_mode": "token",
+  "attn_implementation": null,
+  "auto_map": {
+    "AutoConfig": "modeling_clara.CLaRaConfig",
+    "AutoModel": "modeling_clara.CLaRa"
+  },
+  "compr_base_model_name": "mistralai/Mistral-7B-Instruct-v0.2",
+  "compr_every_n_layer": null,
+  "compr_linear_type": "concat",
+  "compr_mlp_hidden_dim": 8096,
+  "compr_model_name": null,
+  "compr_n_layers": 5,
+  "compr_rate": 16,
+  "compr_rms_norm": false,
+  "compr_use_mlp": false,
+  "decoder_model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "device_map": null,
+  "different_mem_tokens": true,
+  "doc_max_length": 256,
+  "generation_top_k": 4,
+  "kbtc_training": false,
+  "load_adapters": false,
+  "load_pretrained_checkpoint": false,
+  "lora": true,
+  "lora_compressor": false,
+  "lora_r": 16,
+  "lora_r_compressor": 16,
+  "max_new_tokens": 128,
+  "model_type": "CLaRa",
+  "optimize_mem_tokens": true,
+  "pure_inference": false,
+  "quantization": "no",
+  "sep": true,
+  "stage2_retrieval_top_n": 1,
+  "training_form": "both_separately",
+  "training_stage": "stage2",
+  "transformers_version": "4.56.2"
+}
+Base decoder parameters: 494032768
+Model adapter keys: []
+Memory token count: 16
+Loading checkpoint adapter: decoder_adapter
+Loading checkpoint adapter: encoder_adapter
+Loading checkpoint adapter: query_reasoner_adapter
+official CLaRa from official_clara/runs/hotpotqa_CR16/stage2: 16 memory vectors per document, top-4 -> 64 vectors per question
+eval (10 candidates):   0%|          | 0/374 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+eval (10 candidates): 100%|██████████| 374/374 [06:52<00:00,  1.10s/it]
+eval (6 candidates): 100%|██████████| 1/1 [00:00<00:00,  2.87it/s]
+eval (4 candidates): 100%|██████████| 1/1 [00:00<00:00,  2.78it/s]
+eval (8 candidates): 100%|██████████| 1/1 [00:00<00:00,  1.53it/s]
+eval (5 candidates): 100%|██████████| 1/1 [00:00<00:00,  2.98it/s]
+eval (7 candidates): 100%|██████████| 1/1 [00:00<00:00,  3.44it/s]
+EM 11.1 | F1 17.5 | hit@1 56.7 | ranking agreement 100% -> runs/qwen/hotpotqa/clara_official_CR16_s42/results_big
+[hotpotqa] r2_fixed_M16_e6_s42 on the larger set (Monday 05 October 2026 04:34:35 PM IST)
+/home/venugopala.m/clara_nested/nclara/modeling.py:208: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(os.path.join(in_dir, "lora_state.pt"), map_location=self.device)
+/home/venugopala.m/clara_nested/nclara/modeling.py:215: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  mem = torch.load(os.path.join(in_dir, "mem_embeddings.pt"), map_location=self.device)
+compressing eval passages:   0%|          | 0/3000 [00:00<?, ?it/s]We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+compressing eval passages: 100%|██████████| 3000/3000 [28:00<00:00,  1.79it/s]
+qa:   0%|          | 0/3000 [00:00<?, ?it/s]/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:589: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+qa: 100%|██████████| 3000/3000 [16:53<00:00,  2.96it/s]
+results -> runs/qwen/hotpotqa/r2_fixed_M16_e6_s42/results_big/eval.json and summary.md
+[hotpotqa] r2_nested_M32_all_e6__learned_s42 on the larger set (Monday 05 October 2026 05:22:35 PM IST)
+/home/venugopala.m/clara_nested/nclara/modeling.py:208: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(os.path.join(in_dir, "lora_state.pt"), map_location=self.device)
+/home/venugopala.m/clara_nested/nclara/modeling.py:215: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  mem = torch.load(os.path.join(in_dir, "mem_embeddings.pt"), map_location=self.device)
+compressing eval passages:   0%|          | 0/3000 [00:00<?, ?it/s]We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+compressing eval passages: 100%|██████████| 3000/3000 [29:20<00:00,  1.70it/s]
+/home/venugopala.m/clara_nested/nclara/budget.py:90: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(path, map_location=device)
+qa:   0%|          | 0/3000 [00:00<?, ?it/s]/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:589: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+qa: 100%|██████████| 3000/3000 [27:09<00:00,  1.84it/s]
+results -> runs/qwen/hotpotqa/r2_nested_M32_all_e6__learned_s42/results_big/eval.json and summary.md
+[hotpotqa] r2_nested_M32_all_e6__learned_s43 on the larger set (Monday 05 October 2026 06:22:39 PM IST)
+/home/venugopala.m/clara_nested/nclara/modeling.py:208: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(os.path.join(in_dir, "lora_state.pt"), map_location=self.device)
+/home/venugopala.m/clara_nested/nclara/modeling.py:215: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  mem = torch.load(os.path.join(in_dir, "mem_embeddings.pt"), map_location=self.device)
+compressing eval passages:   0%|          | 0/3000 [00:00<?, ?it/s]We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+compressing eval passages: 100%|██████████| 3000/3000 [29:05<00:00,  1.72it/s]
+/home/venugopala.m/clara_nested/nclara/budget.py:90: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(path, map_location=device)
+qa:   0%|          | 0/3000 [00:00<?, ?it/s]/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:589: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+qa: 100%|██████████| 3000/3000 [30:11<00:00,  1.66it/s]
+results -> runs/qwen/hotpotqa/r2_nested_M32_all_e6__learned_s43/results_big/eval.json and summary.md
+[hotpotqa] r2_nested_M32_all_e6__learned_s44 on the larger set (Monday 05 October 2026 07:25:27 PM IST)
+/home/venugopala.m/clara_nested/nclara/modeling.py:208: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(os.path.join(in_dir, "lora_state.pt"), map_location=self.device)
+/home/venugopala.m/clara_nested/nclara/modeling.py:215: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  mem = torch.load(os.path.join(in_dir, "mem_embeddings.pt"), map_location=self.device)
+compressing eval passages:   0%|          | 0/3000 [00:00<?, ?it/s]We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+compressing eval passages: 100%|██████████| 3000/3000 [27:04<00:00,  1.85it/s]
+/home/venugopala.m/clara_nested/nclara/budget.py:90: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(path, map_location=device)
+qa:   0%|          | 0/3000 [00:00<?, ?it/s]/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:589: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+qa: 100%|██████████| 3000/3000 [26:14<00:00,  1.90it/s]
+results -> runs/qwen/hotpotqa/r2_nested_M32_all_e6__learned_s44/results_big/eval.json and summary.md
+# Larger evaluation (Qwen, 64 memory vectors per question)
+## Ours vs the original CLaRa code, paired on the same questions (F1 and EM, %)
+| Dataset | Questions | Official CLaRa F1 / EM / hit@1 | System | F1 / EM / hit@1 | F1 difference [95% CI] | EM difference [95% CI] |
+|---|---|---|---|---|---|---|
+| 2wiki | 3000 | 31.9 / 29.0 / 54.3 | our method (budget head), 3 seeds | 36.2 +- 0.8 / 31.1 +- 0.5 / 72.4 +- 1.4 | +4.2 [+3.3, +5.1] | +2.1 [+1.3, +3.0] |
+| 2wiki | 3000 | 31.9 / 29.0 / 54.3 | our CLaRa re-implementation (fixed-16) | 35.7 / 31.2 / 67.6 | +3.8 [+2.2, +5.3] | +2.3 [+0.6, +3.7] |
+| hotpotqa | 3000 | 17.5 / 11.1 / 56.7 | our method (budget head), 3 seeds | 19.2 +- 0.5 / 11.7 +- 0.4 / 55.8 +- 2.8 | +1.8 [+1.0, +2.5] | +0.6 [-0.0, +1.3] |
+| hotpotqa | 3000 | 17.5 / 11.1 / 56.7 | our CLaRa re-implementation (fixed-16) | 19.8 / 11.5 / 50.8 | +2.3 [+1.0, +3.5] | +0.4 [-0.8, +1.6] |
+## Does the learned split beat the uniform split? (our method, pooled over seeds, F1 points)
+| Dataset | Budget | Seeds | Questions | learned - uniform [95% CI] | top-heavy - uniform [95% CI] |
+|---|---|---|---|---|---|
+| 2wiki | 32 | 3 | 3000 | +0.0 [+0.0, +0.0] | +0.1 [-0.1, +0.3] |
+| 2wiki | 64 | 3 | 3000 | +0.1 [-0.0, +0.2] | +0.1 [-0.1, +0.4] |
+| hotpotqa | 32 | 3 | 3000 | +0.1 [-0.1, +0.3] | +0.1 [-0.2, +0.3] |
+| hotpotqa | 64 | 3 | 3000 | +0.0 [-0.1, +0.2] | +0.1 [-0.1, +0.3] |
+-> runs/big_eval_summary.md

@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "5abbfc2b554299642a094bc9",
+    "question": "What was the 15th comedy album by the star of the 1960s series I Spy?",
+    "gold": "Fat Albert",
+    "pred": "I Spy: The Movie",
+    "topk": [
+      7,
+      1,
+      0,
+      3
+    ],
+    "gold_idx": [
+      6,
+      8
+    ]
+  },
+  {
+    "id": "5a9084e75542990a98493667",
+    "question": "Les Ottolenghi was previously the Chief Information Officer at what casino in Paradise, Nevada?",
+    "gold": "Las Vegas Sands",
+    "pred": "Las Vegas Sands",
+    "topk": [
+      1,
+      5,
+      7,
+      9
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5abe832a55429965af743f29",
+    "question": "Two of the pharmacy schools are Midway College School of Pharmacy and which first for-profit college or university to receive the Southern Association of Colleges and Schools?",
+    "gold": "Sullivan University College of Pharmacy",
+    "pred": "University of Southern California",
+    "topk": [
+      2,
+      7,
+      8,
+      1
+    ],
+    "gold_idx": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": "5a8e16a5554299068b959e58",
+    "question": "Rowland Salley's best-known tune is \"Killing the Blues\", which has been most recently covered by which American singer-songwriter active mainly in the outlaw country music and Southern rock genres?",
+    "gold": "Shooter Jennings",
+    "pred": "Drew Clark",
+    "topk": [
+      3,
+      5,
+      6,
+      7
+    ],
+    "gold_idx": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "5adc54085542994650320cce",
+    "question": "When was the newspaper, in which the 1891 Birthday Honours list appeared on 30 May 1891, adopt its current name ?",
+    "gold": "January 1788",
+    "pred": "1892",
+    "topk": [
+      9,
+      7,
+      1,
+      6
+    ],
+    "gold_idx": [
+      1,
+      9
+    ]
+  },
+  {
+    "id": "5ae1af14554299234fd042c4",
+    "question": "Are both William Beaudine and Richard Benjamin American actors?",
+    "gold": "yes",
+    "pred": "no",
+    "topk": [
+      4,
+      0,
+      5,
+      8
+    ],
+    "gold_idx": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": "5ab2c418554299545a2cfa67",
+    "question": "Ckm wz. 25 Hotchkiss was a Polish derivative of what machine gun that became the standard machine gun of the French Army during World War I?",
+    "gold": "Mle 1914 Hotchkiss machine gun",
+    "pred": "M1917 Lee-Enfield",
+    "topk": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "gold_idx": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "5a79c8fa5542994bb94570a1",
+    "question": "What role did Veda Hlubinka-Cook have in the making of this 1997 video game that takes place on the Orient Express, days before the start of World War I?",
+    "gold": "technical director",
+    "pred": "producer",
+    "topk": [
+      7,
+      8,
+      6,
+      9
+    ],
+    "gold_idx": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": "5ae37ca55542992f92d822d5",
+    "question": "Criss Angel generated $150 million in tourist revenue for his live performance show in what city?",
+    "gold": "Paradise, Nevada",
+    "pred": "New York",
+    "topk": [
+      5,
+      2,
+      6,
+      4
+    ],
+    "gold_idx": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5abe689a55429976d4830b16",
+    "question": "Which Grand Slam singles tournament have Francesca Schiavone and Olga Morozova both been finalists in?",
+    "gold": "French Open",
+    "pred": "Australian Open",
+    "topk": [
+      6,
+      4,
+      8,
+      2
+    ],
+    "gold_idx": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "5a81d69055429903bc27b9de",
+    "question": "When was the sequel to the 2000 mystery by Dan Brown released?",
+    "gold": "October 3, 2017",
+    "pred": "2013",
+    "topk": [
+      2,
+      4,
+      7,
+      3
+    ],
+    "gold_idx": [
+      4,
+      7
+    ]
+  },
+  {
+    "id": "5ac173d85542994d76dcce37",
+    "question": "Toby Scott worked with which American singer born on May 24, 1941?",
+    "gold": "Bob Dylan",
+    "pred": "Michael Jackson",
+    "topk": [
+      2,
+      6,
+      0,
+      7
+    ],
+    "gold_idx": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "5a801f215542992bc0c4a6b2",
+    "question": "the first woman to be the chef de mission of an Australian Olympic team won gold medal in which winter Olympics ?",
+    "gold": "2002 Winter Olympics",
+    "pred": "2016 Winter Olympics",
+    "topk": [
+      0,
+      7,
+      4,
+      1
+    ],
+    "gold_idx": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": "5a84c89a5542992a431d1a9c",
+    "question": "What is another name for a forest which has the hamlet of Oakenclough on the edge of it?",
+    "gold": "\"Switzerland of England\"",
+    "pred": "Oakenclough Forest",
+    "topk": [
+      4,
+      1,
+      0,
+      7
+    ],
+    "gold_idx": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "5abf04ae5542993fe9a41dbf",
+    "question": "What musical action does Ndebele music and Musical bow have in common?",
+    "gold": "played",
+    "pred": "playing the guitar",
+    "topk": [
+      0,
+      1,
+      9,
+      5
+    ],
+    "gold_idx": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "5abb93275542993f40c73b3c",
+    "question": "The first statue by Benjamin Victor was of a Paiute activist who was born with what name?",
+    "gold": "Thocmentony",
+    "pred": "a name",
+    "topk": [
+      8,
+      6,
+      3,
+      2
+    ],
+    "gold_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "5ae2e06d55429928c4239521",
+    "question": " Both Vitas Gerulaitis and Heather Watson play what sport?",
+    "gold": "tennis player",
+    "pred": "tennis",
+    "topk": [
+      7,
+      8,
+      0,
+      6
+    ],
+    "gold_idx": [
+      0,
+      7
+    ]
+  },
+  {
+    "id": "5a7b681b554299042af8f767",
+    "question": "In what type of imprisonment where the inmates Arne Berge helped rescue during operation White Buses?",
+    "gold": "concentration camp",
+    "pred": "prison",
+    "topk": [
+      8,
+      0,
+      6,
+      5
+    ],
+    "gold_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "5a72634d5542997f82783994",
+    "question": "what city will host the event in which marie gisele eleme asse won twoo medals in 2017",
+    "gold": "Abidjan",
+    "pred": "Paris",
+    "topk": [
+      3,
+      1,
+      2,
+      9
+    ],
+    "gold_idx": [
+      1,
+      9
+    ]
+  },
+  {
+    "id": "5a7570a65542996c70cfaefd",
+    "question": "From what state was the congressman who became Secretary of Defense and reportedly refused to promote Les Brownlee to Secretary of the Army because he was not a CEO?",
+    "gold": "Illinois",
+    "pred": "New York",
+    "topk": [
+      7,
+      0,
+      3,
+      9
+    ],
+    "gold_idx": [
+      0,
+      7
+    ]
+  },
+  {
+    "id": "5a874e9b554299211dda2bd3",
+    "question": "What did the second First Lady to be born outside the United States or areas that would become part of the United States do before marrying?",
+    "gold": "fashion model",
+    "pred": "Mary Elizabeth, the wife of President John F. Kennedy",
+    "topk": [
+      0,
+      3,
+      9,
+      6
+    ],
+    "gold_idx": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "5a80e4b255429938b6142239",
+    "question": " \"Prostitute\" is a song written by Axl Rose and Paul Tobias with additional work by an American guitarist has played in two different bands on a list of what? ",
+    "gold": "100 Greatest Artists of Hard Rock",
+    "pred": "American rock bands",
+    "topk": [
+      6,
+      4,
+      5,
+      0
+    ],
+    "gold_idx": [
+      2,
+      6
+    ]
+  },
+  {
+    "id": "5a8d7e1055429941ae14dfd8",
+    "question": "Which is bigger, Griffon Bruxellois or English Mastiff?",
+    "gold": "English Mastiff",
+    "pred": "English Mastiff",
+    "topk": [
+      9,
+      2,
+      7,
+      8
+    ],
+    "gold_idx": [
+      0,
+      9
+    ]
+  },
+  {
+    "id": "5a8a58f355429930ff3c0da3",
+    "question": "Were Daniel Mann and Todd Solondz both directors?",
+    "gold": "yes",
+    "pred": "yes",
+    "topk": [
+      5,
+      3,
+      6,
+      1
+    ],
+    "gold_idx": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "5ae446fc5542995ad6573d24",
+    "question": "What Mexican singer released the song Todos Me Miran?",
+    "gold": "Gloria Trevi",
+    "pred": "Canci\u00f3n de la Cumbia",
+    "topk": [
+      0,
+      3,
+      2,
+      8
+    ],
+    "gold_idx": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "5ab804065542990e739ec7e0",
+    "question": "Are the bands \"Black Grape\" and \"Balance and Composure\" from the same country?",
+    "gold": "no",
+    "pred": "no",
+    "topk": [
+      5,
+      2,
+      7,
+      9
+    ],
+    "gold_idx": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "5abb02fe554299232ef4a39f",
+    "question": "Anna Aglatova made her first public appearance at which Moscow theatre in 2005?",
+    "gold": "Bolshoi Theatre",
+    "pred": "The Moscow Theatre of the Russian Theatre",
+    "topk": [
+      0,
+      2,
+      1,
+      8
+    ],
+    "gold_idx": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5abd573c55429924427fcfb7",
+    "question": "Zach Parise's father played in which league?",
+    "gold": "NHL",
+    "pred": "National Football League",
+    "topk": [
+      8,
+      2,
+      6,
+      5
+    ],
+    "gold_idx": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "5a8ec4875542995a26add508",
+    "question": "What county was Tom Hewitt born in?",
+    "gold": "Ravalli County, Montana",
+    "pred": "Hertfordshire",
+    "topk": [
+      0,
+      4,
+      7,
+      3
+    ],
+    "gold_idx": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "5a7e72dd55429949594199bf",
+    "question": "Among the prominent members of the Walla Walla expeditions was member of tribe whose reservation is how many square miles in total?",
+    "gold": "237",
+    "pred": "1,025",
+    "topk": [
+      7,
+      5,
+      9,
+      8
+    ],
+    "gold_idx": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": "5a7793275542992a6e59df04",
+    "question": "Which country is the firm that owns Babycham located?",
+    "gold": "Australia",
+    "pred": "India",
+    "topk": [
+      3,
+      1,
+      0,
+      5
+    ],
+    "gold_idx": [
+      3,
+      6
+    ]
+  },
+  {
+    "id": "5ab3ec51554299753aec59f1",
+    "question": "Sachin H. Jain served as Chief Medical Information and Innovation Officer for one of the largest pharmaceutical companies in the world called what?",
+    "gold": "Merck & Co.",
+    "pred": "GSK",
+    "topk": [
+      1,
+      2,
+      6,
+      9
+    ],
+    "gold_idx": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "5a7cd66a554299452d57ba90",
+    "question": "Which band had more members, Semisonic or Cake?",
+    "gold": "Cake",
+    "pred": "Cake",
+    "topk": [
+      0,
+      8,
+      3,
+      6
+    ],
+    "gold_idx": [
+      3,
+      6
+    ]
+  },
+  {
+    "id": "5a83335f5542996488c2e3ec",
+    "question": "Which American novelist was notable primarily for publishing science fiction, Allen Drury or Philip K. Dick?",
+    "gold": "Philip Kindred Dick",
+    "pred": "Philip K. Dick",
+    "topk": [
+      8,
+      7,
+      1,
+      2
+    ],
+    "gold_idx": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "5a8d8eb5554299068b959d3a",
+    "question": "Which opera has more acts, Parsifal or Manon by Massenet?",
+    "gold": "Parsifal",
+    "pred": "Parsifal",
+    "topk": [
+      9,
+      6,
+      2,
+      3
+    ],
+    "gold_idx": [
+      0,
+      7
+    ]
+  },
+  {
+    "id": "5a7261635542997f8278398a",
+    "question": "Where is the city that Ingrida Ardi\u0161auskait\u0117 was born in located in Lithuania?",
+    "gold": "a city in north-east Lithuania.",
+    "pred": "Klaip\u0117da",
+    "topk": [
+      1,
+      6,
+      3,
+      7
+    ],
+    "gold_idx": [
+      1,
+      7
+    ]
+  },
+  {
+    "id": "5a7265a95542992359bc307a",
+    "question": "In what year did construction begin on the stadium where the 2013 America East Men's Lacrosse Tournament was held?",
+    "gold": "in 2000",
+    "pred": "2013",
+    "topk": [
+      4,
+      5,
+      8,
+      6
+    ],
+    "gold_idx": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "5a873ec75542996432c57244",
+    "question": "The structure in Wyoming in which Bo\u0159e\u0148 is similar to has a summit that is how many feet above sea level?",
+    "gold": "5,112 feet",
+    "pred": "1,052",
+    "topk": [
+      7,
+      3,
+      8,
+      5
+    ],
+    "gold_idx": [
+      7,
+      8
+    ]
+  },
+  {
+    "id": "5adce3265542992c1e3a2466",
+    "question": "What title did the author of Det norske Theater's first production hold ? ",
+    "gold": "Baron of Holberg",
+    "pred": "director",
+    "topk": [
+      2,
+      4,
+      6,
+      3
+    ],
+    "gold_idx": [
+      7,
+      9
+    ]
+  },
+  {
+    "id": "5ab3eeb5554299233954fff4",
+    "question": "The actress that plays Kaylee Frye in the series \"Firefly\" also stars with Alan Dale in a sci-fi tv film released in what year?",
+    "gold": "2011",
+    "pred": "2016",
+    "topk": [
+      7,
+      2,
+      4,
+      8
+    ],
+    "gold_idx": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": "5ac1725c5542994d76dcce2c",
+    "question": "What was the alternate slang name for the World War I era grenade that the egg grenade was less awkward than to handle?",
+    "gold": "potato masher",
+    "pred": "the egg grenade",
+    "topk": [
+      7,
+      1,
+      9,
+      8
+    ],
+    "gold_idx": [
+      1,
+      7
+    ]
+  },
+  {
+    "id": "5ab2909a5542993be8fa994f",
+    "question": "Hairy Jeremy was a television show created in a style that, when it uses plasticine, is called what?",
+    "gold": "clay animation",
+    "pred": "plasticine skin",
+    "topk": [
+      5,
+      1,
+      0,
+      4
+    ],
+    "gold_idx": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "5ae3eeb25542995dadf2425e",
+    "question": "Toni Braxton: Revealed was performed at a hotel and casino owned and operated by who?",
+    "gold": "Caesars Entertainment Corporation",
+    "pred": "The Venetian",
+    "topk": [
+      8,
+      9,
+      0,
+      5
+    ],
+    "gold_idx": [
+      8,
+      9
+    ]
+  },
+  {
+    "id": "5a84e1095542997175ce1f25",
+    "question": "What city is home to the private research university Jung Seul-ki swam for?",
+    "gold": "Seoul, South Korea",
+    "pred": "Seoul",
+    "topk": [
+      7,
+      9,
+      6,
+      0
+    ],
+    "gold_idx": [
+      1,
+      9
+    ]
+  },
+  {
+    "id": "5ae5be475542990ba0bbb2c6",
+    "question": "Which ground force of the Austro-Hungarian Dual Monarchy did Jan Romer joined ",
+    "gold": "The Austro-Hungarian Army",
+    "pred": "1st Battalion, 2nd Infantry Regiment",
+    "topk": [
+      2,
+      7,
+      3,
+      9
+    ],
+    "gold_idx": [
+      2,
+      7
+    ]
+  },
+  {
+    "id": "5ae3f2895542995ad6573cc9",
+    "question": "\u00c5 is part of the alphbet used in which group of Upper German dialects?",
+    "gold": "Alemannic",
+    "pred": "S\u00fcddeutschland",
+    "topk": [
+      5,
+      4,
+      6,
+      7
+    ],
+    "gold_idx": [
+      4,
+      9
+    ]
+  },
+  {
+    "id": "5a7e7ed05542991319bc94c2",
+    "question": "Which magazine is older, Gallery or Dime Magazine?",
+    "gold": "arose on the \"Playboy\" magazine pattern in the 1970s.",
+    "pred": "Dime Magazine",
+    "topk": [
+      5,
+      9,
+      0,
+      8
+    ],
+    "gold_idx": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "5ae31bbd55429928c42395fc",
+    "question": "Are Guildford Cathedral and St Paul's Cathedral both located in England?",
+    "gold": "yes",
+    "pred": "yes",
+    "topk": [
+      8,
+      1,
+      4,
+      2
+    ],
+    "gold_idx": [
+      0,
+      8
+    ]
+  },
+  {
+    "id": "5aba77be55429955dce3ee44",
+    "question": "How many degrees and minutes south of the equator are the bone fragments of the extinct Ascension night heron found?",
+    "gold": "7\u00b056'",
+    "pred": "13.5",
+    "topk": [
+      9,
+      1,
+      2,
+      5
+    ],
+    "gold_idx": [
+      4,
+      9
+    ]
+  },
+  {
+    "id": "5a865d11554299211dda2b0d",
+    "question": "What is the original name of the place where The 1st Minnesota Light Artillery Battery mustered?",
+    "gold": "Fort Saint Anthony",
+    "pred": "Fort St. Louis",
+    "topk": [
+      8,
+      1,
+      2,
+      6
+    ],
+    "gold_idx": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "5ae4d3c95542990ba0bbb165",
+    "question": "In what city can a person find both the Nusretiye Clock Tower and the Eski Imaret Mosque be found?",
+    "gold": "Istanbul, Turkey",
+    "pred": "Konya",
+    "topk": [
+      9,
+      8,
+      4,
+      0
+    ],
+    "gold_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "5a75227955429929fddd8508",
+    "question": "What is the name of the largest shopping center in the City of Tea Tree Gully? ",
+    "gold": "Westfield Marion",
+    "pred": "City of Tea Tree Gully Shopping Centre",
+    "topk": [
+      2,
+      9,
+      7,
+      5
+    ],
+    "gold_idx": [
+      2,
+      9
+    ]
+  },
+  {
+    "id": "5a8bd49d5542997f31a41dd7",
+    "question": "Who is this American cartoonist, writer, producer, animator, and voice actor that worked with this multiple Shuster Award, Harvey Award and Eisner Award nominee and an Eisner Award\u2013winning comic book creator?",
+    "gold": "Matt Groening",
+    "pred": "Bill Watterson",
+    "topk": [
+      5,
+      3,
+      8,
+      7
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5ae04a2755429924de1b7091",
+    "question": "Are Columbia University and University of Colorado both private universities? ",
+    "gold": "no",
+    "pred": "yes",
+    "topk": [
+      4,
+      1,
+      9,
+      3
+    ],
+    "gold_idx": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "5a72a0be5542992359bc3143",
+    "question": "This work of literature _______ , known by its Greek title Oedipus Tyrannus was argued by Sigmund Freud to be one of the greatest works of world literature in his 1928 article. ",
+    "gold": "Oedipus Rex",
+    "pred": "the play Oedipus Rex",
+    "topk": [
+      4,
+      2,
+      9,
+      7
+    ],
+    "gold_idx": [
+      3,
+      6
+    ]
+  },
+  {
+    "id": "5ab42e55554299753aec5a53",
+    "question": "San Marco and Medina are both what type of game?",
+    "gold": "board",
+    "pred": "football",
+    "topk": [
+      9,
+      5,
+      3,
+      1
+    ],
+    "gold_idx": [
+      5,
+      9
+    ]
+  },
+  {
+    "id": "5ae35c945542992e3233c3bd",
+    "question": "Jay-Z released his 1996 Rolling Stone-rated \"500 Greatest\" album on which record labels?",
+    "gold": "Roc-A-Fella Records and Priority Records",
+    "pred": "Atlantic Records",
+    "topk": [
+      8,
+      7,
+      0,
+      6
+    ],
+    "gold_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "5a7c4e655542990527d55489",
+    "question": "Which actress does this Netflix's project by Nick Bernardone and Tina Fey star in the title role?",
+    "gold": "Ellie Kemper",
+    "pred": "Kathryn Hahn",
+    "topk": [
+      2,
+      1,
+      0,
+      7
+    ],
+    "gold_idx": [
+      0,
+      8
+    ]
+  },
+  {
+    "id": "5ac2a20055429967731025cb",
+    "question": "Are both Snowboard Magazine and The Believer sporting magazines?",
+    "gold": "no",
+    "pred": "no",
+    "topk": [
+      1,
+      6,
+      4,
+      0
+    ],
+    "gold_idx": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "5a7f8d755542992097ad2f9d",
+    "question": "How many visitors per year does the first stop of OC Transpo Route 97 attract each year?",
+    "gold": "about 7 million",
+    "pred": "1,000",
+    "topk": [
+      3,
+      8,
+      7,
+      2
+    ],
+    "gold_idx": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "5ab5f9a0554299488d4d9a6d",
+    "question": "What was the rank of the leader of the army defeated by West Saxon forces?",
+    "gold": "commanders of the Great Army",
+    "pred": "2nd Earl of Wessex",
+    "topk": [
+      4,
+      1,
+      8,
+      3
+    ],
+    "gold_idx": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "5aba55f25542994dbf0198e0",
+    "question": "Which space mission did the man, in which the Onizuka Prop Wash Award is named after, perish?",
+    "gold": "STS-51-L",
+    "pred": "Hunters Mission",
+    "topk": [
+      6,
+      3,
+      7,
+      2
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5add870b5542995b365fab3c",
+    "question": "Which actor starred in both \"The Best Years of Our Lives\" in 1946 and \"The Crowded Sky\" in 1960?",
+    "gold": "Carver Dana Andrews",
+    "pred": "Robert Mitchum",
+    "topk": [
+      6,
+      5,
+      3,
+      2
+    ],
+    "gold_idx": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "5a75eca555429976ec32bca8",
+    "question": "Which one of the Long Island Herald newspaper chain serves a village in Nassau County, New York with a population of 6,483?",
+    "gold": "The Nassau Herald",
+    "pred": "Long Island Daily News",
+    "topk": [
+      4,
+      1,
+      7,
+      0
+    ],
+    "gold_idx": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "5a713f3c5542994082a3e6eb",
+    "question": "Where does the train that runs from NYC and Miami station at in Florida?",
+    "gold": "Jacksonville station",
+    "pred": "Miami Beach",
+    "topk": [
+      3,
+      6,
+      1,
+      9
+    ],
+    "gold_idx": [
+      1,
+      6
+    ]
+  },
+  {
+    "id": "5a7698c2554299373536010d",
+    "question": "What is the total circulation of the magazine that called Ohio State Route 78 one of the most scenic highways nationwide?",
+    "gold": "Car and Driver",
+    "pred": "1,054",
+    "topk": [
+      3,
+      6,
+      8,
+      2
+    ],
+    "gold_idx": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": "5ac2b8085542990b17b1546b",
+    "question": "Which team did Art Briles lead to a victory at the Orlando Citrus Bowl on December 29, 2015?",
+    "gold": "2015 Baylor Bears football team",
+    "pred": "the Atlanta Falcons",
+    "topk": [
+      3,
+      4,
+      9,
+      2
+    ],
+    "gold_idx": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "5a7128b05542994082a3e5f2",
+    "question": "Which film was released first, Laura's Star or Wonder Woman?",
+    "gold": "Laura's Star",
+    "pred": "Wonder Woman",
+    "topk": [
+      5,
+      0,
+      1,
+      7
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5ae1fa2b5542997f29b3c1df",
+    "question": "Who collaborated with Rihanna on the album release \"Numb\"?",
+    "gold": "Eminem",
+    "pred": "The Beastie Boys",
+    "topk": [
+      4,
+      5,
+      6,
+      8
+    ],
+    "gold_idx": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "5a846acc5542993344746117",
+    "question": "What actor, who passed away in 1942 was also the producer of the stage version of the 1940 spy film which stars Boris Karloff and Margaret Lindsay?",
+    "gold": "George M. Cohan",
+    "pred": "John Gilbert",
+    "topk": [
+      1,
+      0,
+      6,
+      3
+    ],
+    "gold_idx": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "5a722b8655429971e9dc9329",
+    "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+    "gold": "Barton Lee Hazlewood",
+    "pred": "John Steinbeck",
+    "topk": [
+      0,
+      6,
+      5,
+      9
+    ],
+    "gold_idx": [
+      7,
+      9
+    ]
+  },
+  {
+    "id": "5a7f35015542992e7d278c8a",
+    "question": "In what year was the college that Cal Hovde served as dean for founded?",
+    "gold": "1754",
+    "pred": "1920",
+    "topk": [
+      4,
+      0,
+      6,
+      2
+    ],
+    "gold_idx": [
+      0,
+      6
+    ]
+  },
+  {
+    "id": "5ac3ba0455429939154138f2",
+    "question": "Saturn AL-31 is an engine that powers the aircraft produced in what country?",
+    "gold": "China",
+    "pred": "France",
+    "topk": [
+      7,
+      8,
+      9,
+      3
+    ],
+    "gold_idx": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": "5abec12b5542997ec76fd358",
+    "question": "Which person is known for playing in punk bands, Keith Morris or Rome Ramirez?",
+    "gold": "Keith Morris",
+    "pred": "Rome Ramirez",
+    "topk": [
+      6,
+      5,
+      1,
+      2
+    ],
+    "gold_idx": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "5a734a205542992359bc32e2",
+    "question": "Which director won an Academy Award for best director for his work on the film, \"Midnight Cowboy?\"",
+    "gold": "John Schlesinger",
+    "pred": "John Landis",
+    "topk": [
+      2,
+      3,
+      6,
+      0
+    ],
+    "gold_idx": [
+      2,
+      8
+    ]
+  },
+  {
+    "id": "5ac2a35055429967731025ce",
+    "question": "When did the baseball draft with which Alex Lange was the 30th pick began? ",
+    "gold": "June 12, 2017",
+    "pred": "1970",
+    "topk": [
+      7,
+      8,
+      0,
+      5
+    ],
+    "gold_idx": [
+      7,
+      8
+    ]
+  },
+  {
+    "id": "5a8198565542995ce29dcc13",
+    "question": "Are Ranger Rick and Tennis both sports magazines?",
+    "gold": "no",
+    "pred": "yes",
+    "topk": [
+      3,
+      0,
+      2,
+      8
+    ],
+    "gold_idx": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "5ab864945542990e739ec8e1",
+    "question": "Substorm was described in qualitative terms by a scientist nominated for what seven times?",
+    "gold": "Nobel Prize",
+    "pred": "the Nobel Prize in Physics",
+    "topk": [
+      3,
+      1,
+      4,
+      6
+    ],
+    "gold_idx": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "5a7d07a455429907fabef0ae",
+    "question": "J\u00f3zsef Viola's association was most prominent with which professional Italian football club in Turin, Piedmont?",
+    "gold": "Juventus Football Club",
+    "pred": "Inter Milan",
+    "topk": [
+      0,
+      1,
+      7,
+      4
+    ],
+    "gold_idx": [
+      6,
+      9
+    ]
+  },
+  {
+    "id": "5ae824295542997ec272772f",
+    "question": "Dan Scalco is best known as a contributing author for a magazine owned by who?",
+    "gold": "Peter Shea",
+    "pred": "The New York Times",
+    "topk": [
+      7,
+      4,
+      8,
+      3
+    ],
+    "gold_idx": [
+      7,
+      8
+    ]
+  },
+  {
+    "id": "5abe364e5542993f32c2a08e",
+    "question": "Lollipop Chainsaw featured Juliet Starling, who was voiced by a Canadian-American actress who has done voice roles for what Teen Titans spinoff series?",
+    "gold": "Teen Titans Go!",
+    "pred": "Teen Titans: The Movie",
+    "topk": [
+      8,
+      3,
+      9,
+      6
+    ],
+    "gold_idx": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "5adc914d5542994ed6169b90",
+    "question": "The British longhair is defined by what registries?",
+    "gold": "domestic cat",
+    "pred": "British Kennel Club",
+    "topk": [
+      1,
+      9,
+      5,
+      6
+    ],
+    "gold_idx": [
+      1,
+      9
+    ]
+  },
+  {
+    "id": "5ab7f0015542992aa3b8c88b",
+    "question": "Who did the Star and Dagger bass player marry?",
+    "gold": "Sean Yseult.",
+    "pred": "Linda Smith",
+    "topk": [
+      3,
+      2,
+      0,
+      9
+    ],
+    "gold_idx": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": "5ab5de535542992aa134a3b6",
+    "question": "Are Alek Keshishian and Kirk Kerkorian both Armenian-American?",
+    "gold": "yes",
+    "pred": "yes",
+    "topk": [
+      9,
+      1,
+      2,
+      0
+    ],
+    "gold_idx": [
+      2,
+      7
+    ]
+  },
+  {
+    "id": "5a73987c55429978a71e9039",
+    "question": "Which production company was involved with both of the movies A Kid in King Arthur's Court and The Great Locomotive Chase?",
+    "gold": "Walt Disney Productions",
+    "pred": "Paramount Pictures",
+    "topk": [
+      5,
+      8,
+      9,
+      7
+    ],
+    "gold_idx": [
+      7,
+      8
+    ]
+  },
+  {
+    "id": "5a8add4c5542992d82986fb4",
+    "question": "What 1989-born Liverpool player was Jim Cassell responsible for developing?",
+    "gold": "Daniel Sturridge",
+    "pred": "John Terry",
+    "topk": [
+      7,
+      4,
+      3,
+      6
+    ],
+    "gold_idx": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": "5ae256c35542994d89d5b3e9",
+    "question": "The transnational lottery Les Scadding won in 2009 held it's first draw on what date?",
+    "gold": "13 February 2004",
+    "pred": "20 October 2009",
+    "topk": [
+      2,
+      9,
+      6,
+      5
+    ],
+    "gold_idx": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "5ae0380955429925eb1afc2e",
+    "question": "Which bi-annual British style magazine did  Tim Walker  regularly shoots for",
+    "gold": "Love",
+    "pred": "The Daily Telegraph",
+    "topk": [
+      8,
+      5,
+      7,
+      9
+    ],
+    "gold_idx": [
+      5,
+      8
+    ]
+  },
+  {
+    "id": "5a78d01d55429974737f78b3",
+    "question": "The singer known as the \"Ballad Prince\" was on a romantic comedy that aired on what state-run channel from August 11 to September 30, 2010?",
+    "gold": "SBS",
+    "pred": "New York",
+    "topk": [
+      0,
+      8,
+      6,
+      2
+    ],
+    "gold_idx": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "5a8e0dbd554299068b959e3e",
+    "question": "What type of media does Hot Pixel and PlayStation Portable have in common?",
+    "gold": "video game",
+    "pred": "video game",
+    "topk": [
+      0,
+      2,
+      9,
+      3
+    ],
+    "gold_idx": [
+      0,
+      9
+    ]
+  },
+  {
+    "id": "5ab5f372554299488d4d9a60",
+    "question": "Which opera has more acts, La jolie fille de Perth or Mitridate, re di Ponto?",
+    "gold": "La jolie fille de Perth \"(The Fair Maid of Perth)\" is an opera in four acts",
+    "pred": "Mitridate, re di Ponto",
+    "topk": [
+      5,
+      1,
+      9,
+      2
+    ],
+    "gold_idx": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": "5abd848455429924427fd03a",
+    "question": "Are Edward F. Cline and Floyd Mutrux both screenwriters?",
+    "gold": "yes",
+    "pred": "no",
+    "topk": [
+      1,
+      8,
+      3,
+      9
+    ],
+    "gold_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "5ae213de5542997283cd23b9",
+    "question": "Are Parents and Madame Figaro published in the same country?",
+    "gold": "no",
+    "pred": "no",
+    "topk": [
+      8,
+      4,
+      9,
+      0
+    ],
+    "gold_idx": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": "5ab678f455429954757d32d3",
+    "question": "What river runs near the tidal island of Eilean Tioram?",
+    "gold": "River Shiel",
+    "pred": "the River Taima",
+    "topk": [
+      8,
+      5,
+      4,
+      0
+    ],
+    "gold_idx": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": "5a7cc58f554299452d57ba45",
+    "question": "How many times has the national team Joseph Raich Garriga played for in 1941 participated in FIFA World Cups?",
+    "gold": "14",
+    "pred": "1 time",
+    "topk": [
+      7,
+      2,
+      5,
+      8
+    ],
+    "gold_idx": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "5abde4595542991f66106095",
+    "question": "Where does the descendant of the Red Setter originate? ",
+    "gold": "Scotland",
+    "pred": "United Kingdom",
+    "topk": [
+      8,
+      3,
+      1,
+      7
+    ],
+    "gold_idx": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "5a7bb16f554299294a54aa9f",
+    "question": "Rani Jhansi Marine National Park commemorates what queen of the princely state of Jhansi in North India?",
+    "gold": "Lakshmibai, the Rani of Jhansi",
+    "pred": "Queen Victoria",
+    "topk": [
+      0,
+      2,
+      3,
+      7
+    ],
+    "gold_idx": [
+      0,
+      7
+    ]
+  },
+  {
+    "id": "5a770bb855429937353601b5",
+    "question": "Where did the punter for the Dallas Cowboys in the 1980s play college football?",
+    "gold": "Arizona State University",
+    "pred": "University of Texas at Austin",
+    "topk": [
+      3,
+      4,
+      7,
+      6
+    ],
+    "gold_idx": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "5ab2999a554299194fa9342f",
+    "question": "Huell Howser provided the voice of Backson in Disney's what numbered animated film?",
+    "gold": "51st Disney animated feature film.",
+    "pred": "The Lion King",
+    "topk": [
+      7,
+      8,
+      0,
+      1
+    ],
+    "gold_idx": [
+      0,
+      6
+    ]
+  },
+  {
+    "id": "5aba71be5542994dbf01990c",
+    "question": "Panic! at the Disco released their 5th studio album on what date?",
+    "gold": "January 15, 2016",
+    "pred": "2015-03-14",
+    "topk": [
+      7,
+      2,
+      9,
+      4
+    ],
+    "gold_idx": [
+      2,
+      6
+    ]
+  },
+  {
+    "id": "5ac264195542992f1f2b38a5",
+    "question": "Which song that John Kirby scored  is often the final piece of music played during an evening of revelry?",
+    "gold": "\"Loch Lomond\"",
+    "pred": "The Last Waltz",
+    "topk": [
+      3,
+      1,
+      7,
+      9
+    ],
+    "gold_idx": [
+      1,
+      7
+    ]
+  },
+  {
+    "id": "5ae69e3f5542996d980e7c61",
+    "question": "At which university did the notable psychoanalyst associated with the University of Chicago serve most of his career as a professor of psychiatry?",
+    "gold": "University of New York Upstate",
+    "pred": "University of Chicago",
+    "topk": [
+      7,
+      9,
+      4,
+      5
+    ],
+    "gold_idx": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "5ac02e31554299294b218f3f",
+    "question": "Which post DC Extended Universe actress will also play a role in what is intended to be the fifth installment of the DC Extended Universe?",
+    "gold": "Gal Gadot",
+    "pred": "Katie Cassidy",
+    "topk": [
+      5,
+      4,
+      2,
+      9
+    ],
+    "gold_idx": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": "5a8f03855542997ba9cb3186",
+    "question": "The Collection at RiverPark is anchored by Target and an American supermarket chain that features foods without what type of fat?",
+    "gold": "hydrogenated",
+    "pred": "saturated",
+    "topk": [
+      1,
+      9,
+      0,
+      8
+    ],
+    "gold_idx": [
+      1,
+      6
+    ]
+  },
+  {
+    "id": "5ae26c795542992decbdccfb",
+    "question": "What footballer beat out a German professional footballer despite his 18 clean sheets?",
+    "gold": "Kur\u00e1nyi",
+    "pred": "Rafael Benitez",
+    "topk": [
+      4,
+      6,
+      1,
+      3
+    ],
+    "gold_idx": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "5ae3294155429928c423963d",
+    "question": "On the Knocking at the Gate in Macbeth is an essay by what English essayist best known for \"Confessions of an English Opium-Eater\"?",
+    "gold": "Thomas Penson De Quincey",
+    "pred": "William Shakespeare",
+    "topk": [
+      6,
+      8,
+      9,
+      3
+    ],
+    "gold_idx": [
+      6,
+      8
+    ]
+  },
+  {
+    "id": "5add352b5542990dbb2f7dc4",
+    "question": "Who were the lead members of the group of actors who were in the film which was remade as the first film of \"Ocean's Trilogy\"?",
+    "gold": "Frank Sinatra, Dean Martin, Sammy Davis Jr.",
+    "pred": "the cast of the film \"Ocean's Trilogy\"",
+    "topk": [
+      6,
+      1,
+      3,
+      5
+    ],
+    "gold_idx": [
+      6,
+      9
+    ]
+  },
+  {
+    "id": "5a867089554299211dda2b30",
+    "question": "Which magazine is published more often, Shonen Jump or Rolling Stone?",
+    "gold": "Rolling Stone",
+    "pred": "Shonen Jump",
+    "topk": [
+      8,
+      1,
+      4,
+      2
+    ],
+    "gold_idx": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "5a75d00a5542992db94736d1",
+    "question": "Which state in Southern Africa, whose capital is located in Salisbury, hosted the Currie Cup in which John David McPhun played?",
+    "gold": "Rhodesia",
+    "pred": "South Africa",
+    "topk": [
+      5,
+      7,
+      4,
+      1
+    ],
+    "gold_idx": [
+      2,
+      8
+    ]
+  },
+  {
+    "id": "5abd38285542993062266c19",
+    "question": "Who passed away first Max Oph\u00fcls and Shirley Clarke ?",
+    "gold": "Max Oph\u00fcls",
+    "pred": "Max Oph\u00fcls",
+    "topk": [
+      6,
+      3,
+      8,
+      2
+    ],
+    "gold_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "5a810006554299260e20a1f6",
+    "question": "George Lucas created what character to raise Boba Fett?",
+    "gold": "Jango Fett",
+    "pred": "the character of Boba Fett",
+    "topk": [
+      2,
+      9,
+      7,
+      1
+    ],
+    "gold_idx": [
+      7,
+      9
+    ]
+  },
+  {
+    "id": "5adc861c5542994d58a2f62c",
+    "question": "What is the main base for the parent company of LATAM Express?",
+    "gold": "Comodoro Arturo Merino Ben\u00edtez International Airport",
+    "pred": "La Paz",
+    "topk": [
+      8,
+      7,
+      1,
+      2
+    ],
+    "gold_idx": [
+      1,
+      7
+    ]
+  },
+  {
+    "id": "5a8ac02d5542996c9b8d5f6f",
+    "question": "What colors are worn by the Oregon Duck, mascot of the University of Oregon athletic teams?",
+    "gold": "green and yellow",
+    "pred": "red and white",
+    "topk": [
+      4,
+      3,
+      7,
+      1
+    ],
+    "gold_idx": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "5ab8869155429916710eb081",
+    "question": "Electronic Attack Squadron 138 is a type of which American carrier-based electronic warfare aircraft, a specialized version of the two-seat F/A-18F Super Hornet?",
+    "gold": "Boeing EA-18G Growler",
+    "pred": "F-16 Fighting Falcon",
+    "topk": [
+      0,
+      9,
+      5,
+      2
+    ],
+    "gold_idx": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5a80b322554299485f5986c8",
+    "question": "The twenty-first season of South Park was entitled \"White People Renovating Houses\" is which episode of the series overall?",
+    "gold": "278th episode",
+    "pred": "Episode 13",
+    "topk": [
+      4,
+      7,
+      8,
+      2
+    ],
+    "gold_idx": [
+      4,
+      7
+    ]
+  },
+  {
+    "id": "5ac0d9a35542992a796ded90",
+    "question": "Are Hungry Hungry Hippos and Parcheesi both published by Parker Brothers?",
+    "gold": "no",
+    "pred": "yes",
+    "topk": [
+      5,
+      3,
+      9,
+      2
+    ],
+    "gold_idx": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "5a74701655429979e2882952",
+    "question": "Which band has released the most studio albums, Blonde Redhead or Rob Zombie's band White Zombie?",
+    "gold": "Blonde Redhead",
+    "pred": "Blonde Redhead",
+    "topk": [
+      3,
+      0,
+      5,
+      6
+    ],
+    "gold_idx": [
+      6,
+      9
+    ]
+  },
+  {
+    "id": "5ab925fd554299131ca42281",
+    "question": "The lead vocalist of the group \"Tenacious D\" plays a supporting role along with Dennis Leary and Will Patton in a film that received what award at the 1999 Venice Film Festival?",
+    "gold": "Ecumenical Award",
+    "pred": "Golden Globe",
+    "topk": [
+      6,
+      0,
+      1,
+      4
+    ],
+    "gold_idx": [
+      0,
+      7
+    ]
+  },
+  {
+    "id": "5abe5ee955429976d4830b03",
+    "question": "Kathleen Matthews holds what political position in the Maryland Democratic Party?",
+    "gold": "current state party chair",
+    "pred": "Member of the Maryland House of Delegates",
+    "topk": [
+      1,
+      6,
+      9,
+      7
+    ],
+    "gold_idx": [
+      1,
+      7
+    ]
+  },
+  {
+    "id": "5ae47df15542996836b02cba",
+    "question": "Who directed the film which had Luke Goss playing the role of Jared Nomak ?",
+    "gold": "Guillermo del Toro,",
+    "pred": "Christopher Nolan",
+    "topk": [
+      9,
+      4,
+      3,
+      8
+    ],
+    "gold_idx": [
+      4,
+      7
+    ]
+  },
+  {
+    "id": "5a903b7f55429933b8a204af",
+    "question": "What year was the branch of military, who is credited with Operation Tidal Wave, created?",
+    "gold": "1942",
+    "pred": "1945",
+    "topk": [
+      4,
+      5,
+      0,
+      8
+    ],
+    "gold_idx": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": "5a7ab51055429927d897bef6",
+    "question": "What year was the author of Cock and Bull born? ",
+    "gold": "1961",
+    "pred": "1940",
+    "topk": [
+      5,
+      7,
+      4,
+      1
+    ],
+    "gold_idx": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "5a79f37a5542996a35c17045",
+    "question": "Butautas tried to depose his uncle who between which years ?",
+    "gold": "from 1345 to 1377",
+    "pred": "1970-1985",
+    "topk": [
+      7,
+      9,
+      0,
+      2
+    ],
+    "gold_idx": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": "5a76404b5542994ccc91873d",
+    "question": "Which documentary was made first, The Shame of a City or Unchained Memories?",
+    "gold": "Unchained Memories",
+    "pred": "Unchained Memories",
+    "topk": [
+      1,
+      5,
+      2,
+      9
+    ],
+    "gold_idx": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "5a79240955429974737f79a4",
+    "question": "Which dog is native to France, the Basset Bleu de Gascogne or the Bulldog?",
+    "gold": "Basset Bleu de Gascogne",
+    "pred": "Basset Bleu de Gascogne",
+    "topk": [
+      1,
+      3,
+      9,
+      4
+    ],
+    "gold_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "5a83697e5542996488c2e441",
+    "question": " Park Seo-joon is best known for his role in a series that premiered on what month and day?",
+    "gold": "May 22",
+    "pred": "October 19, 2016",
+    "topk": [
+      7,
+      1,
+      2,
+      9
+    ],
+    "gold_idx": [
+      1,
+      7
+    ]
+  },
+  {
+    "id": "5a8c42d7554299240d9c20f5",
+    "question": "How long does the lower level degree program, offered at Helene Fuld College of Nursing, typically last?",
+    "gold": "two years",
+    "pred": "1 year",
+    "topk": [
+      2,
+      6,
+      8,
+      0
+    ],
+    "gold_idx": [
+      2,
+      8
+    ]
+  },
+  {
+    "id": "5ade5e335542992fa25da766",
+    "question": "What was both John Cheever and Laura Ingalls Wilder occupations?",
+    "gold": "American writer",
+    "pred": "writer",
+    "topk": [
+      6,
+      4,
+      5,
+      2
+    ],
+    "gold_idx": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "5ae4a45b55429970de88d9ed",
+    "question": "Although he mostly provided backing vocals as part of this group, Mark Owen's first single \"Four Minute Warning\" released on 4 August 2003, was once part of this English pop music group.",
+    "gold": "Take That",
+    "pred": "The 1980s pop group The Smiths",
+    "topk": [
+      9,
+      4,
+      5,
+      0
+    ],
+    "gold_idx": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": "5ae031c455429924de1b7055",
+    "question": "How many major novels did the author write, whose 1811 book was adapted for a 2008 film with a screenplay by Andrew Davies ?",
+    "gold": "six",
+    "pred": "10",
+    "topk": [
+      8,
+      0,
+      5,
+      2
+    ],
+    "gold_idx": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "5a8c743e5542996e8ac88ab3",
+    "question": "What mixed martial arts promotion that was purchased by the Ultimate Fighting Championship in 2001 used to feature Nate Diaz as a competitor?",
+    "gold": "World Extreme Cagefighting",
+    "pred": "Wrestlemania",
+    "topk": [
+      8,
+      5,
+      9,
+      7
+    ],
+    "gold_idx": [
+      0,
+      8
+    ]
+  },
+  {
+    "id": "5abfa18f5542990832d3a176",
+    "question": "The mother of  Megan Phelps-Roper is best known as the former spokesperson of a church located in what city?",
+    "gold": "Topeka",
+    "pred": "New York",
+    "topk": [
+      5,
+      8,
+      2,
+      9
+    ],
+    "gold_idx": [
+      5,
+      8
+    ]
+  },
+  {
+    "id": "5a8331f15542993344745fe8",
+    "question": "What other jobs did the man that co-produced Gyara Hazar Ladkian have?",
+    "gold": "film lyricist",
+    "pred": "director, producer",
+    "topk": [
+      4,
+      6,
+      3,
+      2
+    ],
+    "gold_idx": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": "5ab2f4c95542991669774155",
+    "question": "What is the name of the field marshal and strategist who was the mastermind behind the Schlieffen Plan?",
+    "gold": "Alfred Graf von Schlieffen",
+    "pred": "Max Planck",
+    "topk": [
+      5,
+      6,
+      1,
+      8
+    ],
+    "gold_idx": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "5ae7f0c75542994a481bbe44",
+    "question": "What is the birthdate of this Norwegian professional footballer who plays as an attacking midfielder and who broke the record for the youngest player that has ever played in the Norwegian top league?",
+    "gold": "17 December 1998",
+    "pred": "1985-03-24",
+    "topk": [
+      4,
+      5,
+      8,
+      7
+    ],
+    "gold_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "5a77c6e05542995d831812c7",
+    "question": "What is the name of the Minahasa journalist and novelist who was active in the colonies incorporated into the Dutch government in 1800?",
+    "gold": "Frederick D. J. Pangemanann",
+    "pred": "Johannes van den Berg",
+    "topk": [
+      6,
+      5,
+      2,
+      4
+    ],
+    "gold_idx": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "5a7f962655429969796c1ac8",
+    "question": "Which skyscraper has more floors, the SNCI Tower or 8 Spruce Street?",
+    "gold": "8 Spruce Street",
+    "pred": "8 Spruce Street",
+    "topk": [
+      6,
+      0,
+      5,
+      3
+    ],
+    "gold_idx": [
+      0,
+      6
+    ]
+  },
+  {
+    "id": "5ae644cc55429908198fa568",
+    "question": "Which Independent Spirit Award was an actress, who was in a film directed by Neil LaBute, nominated for?",
+    "gold": "Best Female Lead",
+    "pred": "the Independent Spirit Award for Best Supporting Actress",
+    "topk": [
+      0,
+      8,
+      5,
+      4
+    ],
+    "gold_idx": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5abdd0f15542991f6610604d",
+    "question": "The Rome Protocols were signed by three Prime Ministers one of which was assassinated as part of what?",
+    "gold": "a failed coup attempt",
+    "pred": "the coup of 1974",
+    "topk": [
+      3,
+      9,
+      4,
+      5
+    ],
+    "gold_idx": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": "5a8ac38855429970aeb70300",
+    "question": "When was the colony William Bradford was governor of founded?",
+    "gold": "1620",
+    "pred": "1630",
+    "topk": [
+      5,
+      3,
+      9,
+      6
+    ],
+    "gold_idx": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "5a90843c5542995651fb517e",
+    "question": "Francisco Jose Hernandez was a participant in an invasion that took place in what year?",
+    "gold": "1961",
+    "pred": "1947",
+    "topk": [
+      5,
+      4,
+      7,
+      9
+    ],
+    "gold_idx": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "5a7d9d2b5542997cc2c47464",
+    "question": "Roy Shepherd was considered a faculty member of what combination of colleges/universities?",
+    "gold": "Victorian College of the Arts and Melbourne Conservatorium of Music",
+    "pred": "University of Cambridge",
+    "topk": [
+      1,
+      2,
+      9,
+      0
+    ],
+    "gold_idx": [
+      0,
+      8
+    ]
+  },
+  {
+    "id": "5ae4be5c5542995ad6573e3a",
+    "question": "Who recorded the song written by Johnny Russell",
+    "gold": "Buck Owens",
+    "pred": "The Beatles",
+    "topk": [
+      5,
+      2,
+      9,
+      6
+    ],
+    "gold_idx": [
+      6,
+      9
+    ]
+  },
+  {
+    "id": "5ab26b60554299449642c898",
+    "question": "The brewing company known for making Genny Light, a beer with only 100 calories per 12 ounce portion, and located along the Genesee River, was formerly known by what brewery name?",
+    "gold": "High Falls Brewery",
+    "pred": "Brewery 100",
+    "topk": [
+      9,
+      1,
+      8,
+      6
+    ],
+    "gold_idx": [
+      5,
+      9
+    ]
+  },
+  {
+    "id": "5abbc3a955429931dba144f9",
+    "question": "Where is the first major improved highway located?",
+    "gold": "Wheeling, West Virginia",
+    "pred": "the M1 motorway",
+    "topk": [
+      0,
+      9,
+      1,
+      6
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5abbb0655542992ccd8e7f72",
+    "question": "Li Yitong played Huang Rong is a tv series directed by who?",
+    "gold": "Jeffrey Chiang",
+    "pred": "Jia Ling",
+    "topk": [
+      5,
+      1,
+      8,
+      3
+    ],
+    "gold_idx": [
+      2,
+      9
+    ]
+  },
+  {
+    "id": "5ab2e3c45542991669774126",
+    "question": "Are Centaurium and Dacrydium both genuses of plant species?",
+    "gold": "yes",
+    "pred": "yes",
+    "topk": [
+      5,
+      2,
+      7,
+      3
+    ],
+    "gold_idx": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "5a8a265b5542992d82986ecc",
+    "question": "Between Frederick King Keller and Ian Schneider, which filmmaker had more diverse job experiences?",
+    "gold": "Frederick King Keller",
+    "pred": "Frederick King Keller",
+    "topk": [
+      8,
+      9,
+      2,
+      5
+    ],
+    "gold_idx": [
+      8,
+      9
+    ]
+  },
+  {
+    "id": "5ae0d4c9554299603e418468",
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "gold": "1969 until 1974",
+    "pred": "1976-1980",
+    "topk": [
+      2,
+      4,
+      1,
+      3
+    ],
+    "gold_idx": [
+      2,
+      8
+    ]
+  },
+  {
+    "id": "5a9052765542995651fb513d",
+    "question": "Which author is an economist, Czes\u0142aw Mi\u0142osz or Bhabananda Deka?",
+    "gold": "Prof Bhabananda Deka",
+    "pred": "Czes\u0142aw Mi\u0142osz",
+    "topk": [
+      3,
+      1,
+      6,
+      0
+    ],
+    "gold_idx": [
+      0,
+      9
+    ]
+  },
+  {
+    "id": "5a85a8655542997b5ce40011",
+    "question": "The Porsche 968 was the last in a line of front-engined sports cars following the 944 and which earlier model?",
+    "gold": "924",
+    "pred": "Porsche 911",
+    "topk": [
+      9,
+      0,
+      6,
+      3
+    ],
+    "gold_idx": [
+      0,
+      9
+    ]
+  },
+  {
+    "id": "5a9064d05542990a9849360f",
+    "question": "What actor's debut film also starred an actor who received four National Film Awards and eight Filmfare Awards, as well as an Academy Award nomination?",
+    "gold": "Tariq Khan",
+    "pred": "Katharine Hepburn",
+    "topk": [
+      9,
+      7,
+      3,
+      1
+    ],
+    "gold_idx": [
+      1,
+      9
+    ]
+  },
+  {
+    "id": "5a72f0e25542991f9a20c5cf",
+    "question": "What television show was,based,on an 1908 novel by Lucy Maud Montgomery?   Anne.",
+    "gold": "Anne",
+    "pred": "The Secret Life of Walter Mitty",
+    "topk": [
+      0,
+      9,
+      6,
+      2
+    ],
+    "gold_idx": [
+      6,
+      9
+    ]
+  },
+  {
+    "id": "5ab587f85542992aa134a34d",
+    "question": "Where did The Cure record their highest charting single?",
+    "gold": "Hookend Recording Studios",
+    "pred": "The Cure's \"I'm Yours\" was released in the United Kingdom on 10 September 2003",
+    "topk": [
+      4,
+      6,
+      7,
+      0
+    ],
+    "gold_idx": [
+      7,
+      9
+    ]
+  },
+  {
+    "id": "5add695a5542992ae4cec557",
+    "question": "What bluegrass singer provides vocals for a song on the album which was released in September 2013 through PRMD Music?",
+    "gold": "Dan Tyminski",
+    "pred": "Derek and the Dominos",
+    "topk": [
+      9,
+      2,
+      6,
+      3
+    ],
+    "gold_idx": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "5abe7eb05542993f32c2a12c",
+    "question": "When was the date of birth of one of the founder of Congo Reform Association?",
+    "gold": "1 September 1864",
+    "pred": "1926-03-15",
+    "topk": [
+      8,
+      0,
+      5,
+      9
+    ],
+    "gold_idx": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": "5a77863555429949eeb29ec6",
+    "question": "Who was born first Iain Pears or Richard Llewellyn ?",
+    "gold": "Richard Dafydd Vivian Llewellyn",
+    "pred": "Richard Llewellyn",
+    "topk": [
+      3,
+      9,
+      7,
+      8
+    ],
+    "gold_idx": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": "5ab7fd6b5542990e739ec7b5",
+    "question": "What city has had an NFL football team with the same name as a Los Angeles NFL team?",
+    "gold": "St. Louis",
+    "pred": "Los Angeles, California",
+    "topk": [
+      5,
+      0,
+      4,
+      7
+    ],
+    "gold_idx": [
+      2,
+      7
+    ]
+  },
+  {
+    "id": "5a77ace855429967ab105223",
+    "question": "What entity with the capital city of Ciudad Victoria is a home to the northern grasshopper mouse?",
+    "gold": "Tamaulipas",
+    "pred": "Cerro de la Luna",
+    "topk": [
+      5,
+      2,
+      7,
+      8
+    ],
+    "gold_idx": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "5ab28c73554299340b525512",
+    "question": "Britt Walford played with what musician who is best known for his guitar work in the band Maurice",
+    "gold": "David Pajo",
+    "pred": "John Lennon",
+    "topk": [
+      5,
+      3,
+      7,
+      2
+    ],
+    "gold_idx": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "5a8634fe554299211dda2aac",
+    "question": "What athletic conference did the conference that the Colgate Raiders women's ice hockey team play in used to be affiliated with?",
+    "gold": "Eastern College Athletic Conference",
+    "pred": "Big East",
+    "topk": [
+      5,
+      9,
+      6,
+      7
+    ],
+    "gold_idx": [
+      7,
+      9
+    ]
+  },
+  {
+    "id": "5a75ebfc5542992d0ec06018",
+    "question": "What indigenous American ethnic group that inhabits land in the northern United States and southern Canada was part of the Treaty of Springwells?",
+    "gold": "Odawa",
+    "pred": "Iroquois",
+    "topk": [
+      1,
+      7,
+      5,
+      6
+    ],
+    "gold_idx": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "5ab6e865554299710c8d1fad",
+    "question": "Between Danny Elfman and Fran Healy who has worked in more diverse fields?",
+    "gold": "Elfman",
+    "pred": "Danny Elfman",
+    "topk": [
+      7,
+      2,
+      4,
+      9
+    ],
+    "gold_idx": [
+      2,
+      7
+    ]
+  },
+  {
+    "id": "5a7345185542992359bc32cb",
+    "question": "Which continent are both magazines, Sayidaty and Closer published?",
+    "gold": "Europe",
+    "pred": "Europe",
+    "topk": [
+      2,
+      8,
+      9,
+      0
+    ],
+    "gold_idx": [
+      2,
+      8
+    ]
+  },
+  {
+    "id": "5adce4f65542992c1e3a2474",
+    "question": "What program responsible for the Health Insurance Portability and Accountability Act works with AHCCS?",
+    "gold": "Centers for Medicare and Medicaid Services",
+    "pred": "Health Insurance Portability and Accountability Act",
+    "topk": [
+      0,
+      5,
+      7,
+      3
+    ],
+    "gold_idx": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "5a7b66135542997c3ec97145",
+    "question": "Which 2008 American documentary film, Pond Hockey or I.O.U.S.A., delves into fiscal issues?",
+    "gold": "I.O.U.S.A.",
+    "pred": "I.O.U.S.A.",
+    "topk": [
+      0,
+      8,
+      7,
+      3
+    ],
+    "gold_idx": [
+      0,
+      8
+    ]
+  },
+  {
+    "id": "5abd8ac25542993062266cc2",
+    "question": "In what year did the American Record company established in 1958 release a record co-produced by Adam Faith?",
+    "gold": "January 1974",
+    "pred": "1960",
+    "topk": [
+      2,
+      6,
+      0,
+      9
+    ],
+    "gold_idx": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "5a7759dd5542994aec3b729f",
+    "question": "What Major League Soccer team owned by Anthony Precourt is coached by a retired American soccer player ?",
+    "gold": "Columbus Crew Soccer Club",
+    "pred": "New York Red Bulls",
+    "topk": [
+      0,
+      6,
+      4,
+      2
+    ],
+    "gold_idx": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "5ab2c5e255429916697740ba",
+    "question": "Which professional ice hockey position does the Captain of the National Hockey League All-Star Game \"Away Team\" play?",
+    "gold": "Canadian professional ice hockey centre",
+    "pred": "forward",
+    "topk": [
+      1,
+      5,
+      9,
+      6
+    ],
+    "gold_idx": [
+      1,
+      6
+    ]
+  },
+  {
+    "id": "5ae2e0fd55429928c4239524",
+    "question": "What actor was also a president that Richard Darman worked with when they were in office?",
+    "gold": "George H. W. Bush",
+    "pred": "John F. Kennedy",
+    "topk": [
+      8,
+      0,
+      5,
+      2
+    ],
+    "gold_idx": [
+      5,
+      8
+    ]
+  },
+  {
+    "id": "5a8f44135542992414482a24",
+    "question": "In what county are the Wichita Wild based in?",
+    "gold": "Sedgwick County, Kansas",
+    "pred": "Wichita County",
+    "topk": [
+      4,
+      0,
+      6,
+      7
+    ],
+    "gold_idx": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": "5ae324775542994393b9e62f",
+    "question": "Korea University College of Education is based in the city that ranks what in the world by terms of size?",
+    "gold": "16th",
+    "pred": "10th largest in the world by terms of size",
+    "topk": [
+      5,
+      0,
+      9,
+      2
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5ab7178f5542991d32223774",
+    "question": "The film Navakoti Narayana was based on the life of Purandara Dasa who was born in what year?",
+    "gold": "1484",
+    "pred": "1875",
+    "topk": [
+      6,
+      0,
+      3,
+      5
+    ],
+    "gold_idx": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": "5ab6ba045542995eadef007e",
+    "question": "Dorian Gray is the main character of what philosophical novel whose editor feared the story was indecent, and deleted roughly five hundred words before publication?",
+    "gold": "The Picture of Dorian Gray",
+    "pred": "The Secret Garden",
+    "topk": [
+      7,
+      3,
+      9,
+      4
+    ],
+    "gold_idx": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": "5ac029655542992a796decb3",
+    "question": "Which game is designed by more persons, Elfenland or San Marco?",
+    "gold": "San Marco",
+    "pred": "Elfenland",
+    "topk": [
+      5,
+      3,
+      6,
+      0
+    ],
+    "gold_idx": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "5a8b7dab5542997f31a41d4c",
+    "question": "In the 1973 NFL season, the Pro Bowl took place at what football stadium that is part of the Truman Sports Complex, along with what other stadium?",
+    "gold": "Kauffman Stadium",
+    "pred": "the University of Missouri's Memorial Stadium",
+    "topk": [
+      1,
+      5,
+      0,
+      4
+    ],
+    "gold_idx": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "5ade043d5542997dc7907122",
+    "question": "Which scientist at the University of Alabama in Huntsville co-developed a satellite temperature record with John Christy?",
+    "gold": "Roy Spencer",
+    "pred": "John C. Marcy",
+    "topk": [
+      6,
+      4,
+      7,
+      9
+    ],
+    "gold_idx": [
+      4,
+      7
+    ]
+  },
+  {
+    "id": "5ae3790f5542992e3233c415",
+    "question": "Are Leopold Lummerstorfer and Valeria Sarmiento both authors?",
+    "gold": "no",
+    "pred": "yes",
+    "topk": [
+      5,
+      8,
+      3,
+      9
+    ],
+    "gold_idx": [
+      5,
+      8
+    ]
+  },
+  {
+    "id": "5a7bacf2554299294a54aa8d",
+    "question": "The plateau region between the Atlantic Coastal Plain and the main Appalachian Mountains is in what state?",
+    "gold": "North Carolina",
+    "pred": "North Carolina",
+    "topk": [
+      2,
+      4,
+      3,
+      0
+    ],
+    "gold_idx": [
+      2,
+      6
+    ]
+  },
+  {
+    "id": "5adf74075542992d7e9f937c",
+    "question": "RL-83 Blindicide was an improved derivative of a wea[on launcher widely fielded by which army ?",
+    "gold": "the United States Army",
+    "pred": "US Army",
+    "topk": [
+      4,
+      7,
+      3,
+      6
+    ],
+    "gold_idx": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "5ae0fe4e554299422ee995a9",
+    "question": "What type of diet does the author of Eat to Live: The Amazing Nutrient-Rich Program for Fast and Sustained Weight Loss advocate?",
+    "gold": "micronutrient-rich",
+    "pred": "Paleo diet",
+    "topk": [
+      1,
+      9,
+      5,
+      8
+    ],
+    "gold_idx": [
+      5,
+      9
+    ]
+  },
+  {
+    "id": "5ab9405c554299743d22ea7c",
+    "question": "In what city did the 1959 William & Mary Indians football team lose against the #13 Naval Academy?",
+    "gold": "Annapolis, Maryland",
+    "pred": "New York City",
+    "topk": [
+      8,
+      2,
+      4,
+      9
+    ],
+    "gold_idx": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "5a7da3a95542990b8f5039e6",
+    "question": "What position did the former Major League Baseball player play who worked on the same broadcast team as Kim Kelch?",
+    "gold": "first baseman",
+    "pred": "shortstop",
+    "topk": [
+      3,
+      9,
+      1,
+      5
+    ],
+    "gold_idx": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": "5ae2d59755429928c42394ec",
+    "question": "Who has a wider scope of profession, Hrag Vartanian or Hovsep Pushman?",
+    "gold": "Hrag Vartanian",
+    "pred": "Hrag Vartanian",
+    "topk": [
+      7,
+      4,
+      2,
+      6
+    ],
+    "gold_idx": [
+      2,
+      7
+    ]
+  },
+  {
+    "id": "5a8066d15542992097ad2fe8",
+    "question": "What Nobel Laureate teaches at  Chapman University?",
+    "gold": "Vernon Smith",
+    "pred": "Professor of Mathematics",
+    "topk": [
+      9,
+      0,
+      2,
+      8
+    ],
+    "gold_idx": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": "5a8b595855429949d91db563",
+    "question": "In what year was the band, whose bassist joined Arvas in 1996, formed?",
+    "gold": "1992",
+    "pred": "1987",
+    "topk": [
+      1,
+      0,
+      8,
+      2
+    ],
+    "gold_idx": [
+      6,
+      9
+    ]
+  },
+  {
+    "id": "5ae1fced5542997283cd230e",
+    "question": "Which writer won the Nobel Prize, William H. Gass or Naguib Mahfouz?",
+    "gold": "Naguib Mahfouz",
+    "pred": "Naguib Mahfouz",
+    "topk": [
+      6,
+      1,
+      3,
+      5
+    ],
+    "gold_idx": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "5ab997ad554299131ca4238c",
+    "question": "Lakshmi Shankar is the mother-in-law of an acclaimed Indian violinist who was noted for what?",
+    "gold": "Hindustani classical vocalist",
+    "pred": "hereditary inheritance",
+    "topk": [
+      3,
+      6,
+      8,
+      0
+    ],
+    "gold_idx": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "5addd82c5542990dbb2f7eb9",
+    "question": "Do Ray Wilson and Leo have the same nationality ?",
+    "gold": "no",
+    "pred": "no",
+    "topk": [
+      6,
+      4,
+      0,
+      2
+    ],
+    "gold_idx": [
+      4,
+      9
+    ]
+  },
+  {
+    "id": "5ae65c925542992ae0d162f9",
+    "question": "Who was the producer of the 1994 American animated epic musical film which Mel Shaw animated?",
+    "gold": "Don Hahn",
+    "pred": "Steven Spielberg",
+    "topk": [
+      4,
+      1,
+      5,
+      9
+    ],
+    "gold_idx": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "5ac16c2b5542994d76dcce19",
+    "question": "What does the brewery that is located in the home of Neuhaus produce?",
+    "gold": "lambics",
+    "pred": "beer",
+    "topk": [
+      1,
+      7,
+      4,
+      0
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5adcde255542992c1e3a243f",
+    "question": "Which WWE wrestler who performs on the Smackdown brand has his initials as part of the team \"Rated-RKO",
+    "gold": "Randy Orton",
+    "pred": "Dwayne \"The Rock\" Johnson",
+    "topk": [
+      1,
+      6,
+      0,
+      9
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5ae1f4cb554299234fd0436d",
+    "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+    "gold": "276,170 inhabitants",
+    "pred": "German-speaking population",
+    "topk": [
+      0,
+      3,
+      6,
+      4
+    ],
+    "gold_idx": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "5a739d8755429978a71e9048",
+    "question": "Which publication is older, the Stanford Chaparral or Dime Magazine? ",
+    "gold": "The Stanford Chaparral",
+    "pred": "Dime Magazine",
+    "topk": [
+      6,
+      8,
+      5,
+      4
+    ],
+    "gold_idx": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "5abf931f5542990832d3a158",
+    "question": "When was the movie adaption of Jennifer Weiner's novel \"In Her Shoes\" released?",
+    "gold": "2005",
+    "pred": "2013",
+    "topk": [
+      5,
+      0,
+      4,
+      8
+    ],
+    "gold_idx": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "5ae00a27554299025d62a3bb",
+    "question": "What Chinese company helped develop the aircraft that preceded the Chengdu J-7?",
+    "gold": "Chengdu Aircraft Corporation",
+    "pred": "China Aeronautical Corporation",
+    "topk": [
+      7,
+      0,
+      8,
+      4
+    ],
+    "gold_idx": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "5ac0784e554299294b218ff6",
+    "question": "My Babysitter's a Vampire was created by Fresh TV, who also created which Canadian animated sitcom which premiered in Canada on November 7, 2004 on Teletoon?",
+    "gold": "6teen",
+    "pred": "The Vampire Diaries",
+    "topk": [
+      8,
+      9,
+      2,
+      4
+    ],
+    "gold_idx": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "5ae0ac1c5542993d6555ec07",
+    "question": "Between Gareth Evans and Pierre Chenal, who's had a more diver career?",
+    "gold": "Gareth Huw Evans",
+    "pred": "Gareth Evans",
+    "topk": [
+      2,
+      0,
+      6,
+      5
+    ],
+    "gold_idx": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5adfa97555429942ec259ae1",
+    "question": "What is the strongest focus of the Adelaide Fim Festical put on by CEO Amanda Duthie?",
+    "gold": "Australian",
+    "pred": "the growth of the Adelaide Fim Festical",
+    "topk": [
+      9,
+      4,
+      0,
+      2
+    ],
+    "gold_idx": [
+      0,
+      9
+    ]
+  },
+  {
+    "id": "5a7a6ec05542990783324f49",
+    "question": "What type of media do Peter Filkins and The New Criterion have in common?",
+    "gold": "journal",
+    "pred": "film and television",
+    "topk": [
+      4,
+      1,
+      2,
+      8
+    ],
+    "gold_idx": [
+      2,
+      7
+    ]
+  },
+  {
+    "id": "5ac017945542997d642959bc",
+    "question": "What film did the sound editor for a 2013 Hong Kong-Chinese martial arts drama film based on the life story of the Wing Chun grandmaster Ip Man win two Academy Awards for?",
+    "gold": "\"Hacksaw Ridge\"",
+    "pred": "The Sound of Music",
+    "topk": [
+      0,
+      4,
+      1,
+      7
+    ],
+    "gold_idx": [
+      0,
+      7
+    ]
+  },
+  {
+    "id": "5ae385df5542992f92d82305",
+    "question": "Who was a pianist, Maro Ajemian or Richard C. Sarafian?",
+    "gold": "Maro Ajemian",
+    "pred": "Richard C. Sarafian",
+    "topk": [
+      3,
+      9,
+      7,
+      6
+    ],
+    "gold_idx": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": "5ac3c0495542995ef918c215",
+    "question": "SLS station was designed to allow access to the area of Las Vegas that includes a hotel and casino in what other town?",
+    "gold": "Winchester",
+    "pred": "Las Vegas, Nevada",
+    "topk": [
+      4,
+      8,
+      9,
+      3
+    ],
+    "gold_idx": [
+      2,
+      9
+    ]
+  },
+  {
+    "id": "5a721d5a55429971e9dc9283",
+    "question": "What Australian beer is a British style pale ale whose label features a character conceived in 1926? ",
+    "gold": "Ballarat Bitter is a 4.9% (abv) Australian beer",
+    "pred": "Bourbon Blonde",
+    "topk": [
+      6,
+      8,
+      2,
+      1
+    ],
+    "gold_idx": [
+      6,
+      8
+    ]
+  },
+  {
+    "id": "5ac31456554299741d48a1b4",
+    "question": "Which band has more members, Lawson or American Music Club?",
+    "gold": "Lawson",
+    "pred": "American Music Club",
+    "topk": [
+      4,
+      0,
+      3,
+      7
+    ],
+    "gold_idx": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "5a90362f55429933b8a2049d",
+    "question": "What play was written by Evgeny Schwartz and directed by Benno Besson?",
+    "gold": "\"The Dragon\"",
+    "pred": "The Last of the Mohicans",
+    "topk": [
+      3,
+      1,
+      5,
+      2
+    ],
+    "gold_idx": [
+      6,
+      9
+    ]
+  },
+  {
+    "id": "5a871e265542991e771816d1",
+    "question": "The man nicknamed \"the Mayor of Silicon Valley\"  was credited along with what engineer that was awarded the nobel prize for physics on December 10, 2000",
+    "gold": "Jack Kilby",
+    "pred": "Richard Feynman",
+    "topk": [
+      1,
+      9,
+      2,
+      6
+    ],
+    "gold_idx": [
+      1,
+      9
+    ]
+  },
+  {
+    "id": "5ab4482b55429942dd415f09",
+    "question": "Which filmmaker is considered a pioneer, Herschell Gordon Lewis or Leah Meyerhoff?",
+    "gold": "Herschell Gordon Lewis was a pioneer",
+    "pred": "Herschell Gordon Lewis",
+    "topk": [
+      8,
+      3,
+      5,
+      1
+    ],
+    "gold_idx": [
+      5,
+      8
+    ]
+  },
+  {
+    "id": "5a8a19c45542992e4fca8501",
+    "question": "Are either The Pogues or Pillar an electronic dance music group?",
+    "gold": "no",
+    "pred": "no",
+    "topk": [
+      8,
+      5,
+      6,
+      0
+    ],
+    "gold_idx": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "5abe79c755429976d4830b2a",
+    "question": "Mesih Pasha's uncle became emperor in what year?",
+    "gold": "1449",
+    "pred": "1926",
+    "topk": [
+      8,
+      6,
+      4,
+      0
+    ],
+    "gold_idx": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "5ab3d764554299233954ffc7",
+    "question": "Who made a spoof of the Radiohead's fourth studio album?",
+    "gold": "The Shirehorses",
+    "pred": "The band's own band members",
+    "topk": [
+      8,
+      7,
+      0,
+      6
+    ],
+    "gold_idx": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": "5abc00ff5542993f40c73c41",
+    "question": "Which contest did the singer of the song Mama's Song win ?",
+    "gold": "American Idol\"",
+    "pred": "American Idol",
+    "topk": [
+      9,
+      1,
+      2,
+      5
+    ],
+    "gold_idx": [
+      1,
+      9
+    ]
+  },
+  {
+    "id": "5a7c04c85542996dd594b881",
+    "question": "Arizona State Route 51 (SR 51) is named after a Native American woman belonging to what tribe?",
+    "gold": "Hopi",
+    "pred": "Pueblo Indians",
+    "topk": [
+      8,
+      3,
+      0,
+      2
+    ],
+    "gold_idx": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "5a77685e5542993569682d83",
+    "question": "Which came first, Battle of Antietam or Battle of Guam?",
+    "gold": "Battle of Antietam",
+    "pred": "Battle of Guam",
+    "topk": [
+      6,
+      9,
+      5,
+      8
+    ],
+    "gold_idx": [
+      8,
+      9
+    ]
+  },
+  {
+    "id": "5ade9545554299728e26c741",
+    "question": "What is special about the wristwatches that Favre-Leuba manufactures?",
+    "gold": "Swiss made",
+    "pred": "Favre-Leuba watches are made with a special type of metal called 18K gold.",
+    "topk": [
+      3,
+      0,
+      5,
+      4
+    ],
+    "gold_idx": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": "5ae25e835542992decbdccd1",
+    "question": "A British sports, health and leisure business hosted the World Games on what dates?",
+    "gold": "July 25 to August 4",
+    "pred": "1983, 2006",
+    "topk": [
+      4,
+      1,
+      7,
+      0
+    ],
+    "gold_idx": [
+      5,
+      8
+    ]
+  },
+  {
+    "id": "5a7323ad5542994cef4bc476",
+    "question": "Which musician is older, Chantal Claret or Max Green?",
+    "gold": "Chantal Claret",
+    "pred": "Chantal Claret",
+    "topk": [
+      4,
+      9,
+      3,
+      5
+    ],
+    "gold_idx": [
+      4,
+      9
+    ]
+  },
+  {
+    "id": "5a8574945542997b5ce3fffb",
+    "question": "Which film was Oscar nominated, LaLee's Kin: The Legacy of Cotton or Gimme Shelter, the 1970 Rolling Stones documentary?",
+    "gold": "LaLee's Kin: The Legacy of Cotton",
+    "pred": "Gimme Shelter, the 1970 Rolling Stones documentary",
+    "topk": [
+      5,
+      7,
+      4,
+      1
+    ],
+    "gold_idx": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": "5adf65555542992d7e9f9334",
+    "question": "Which Kentucky Writers Hall of Fame author has had works published by Dim Gray Bar Press?",
+    "gold": "Wendell Berry",
+    "pred": "John C. Wright",
+    "topk": [
+      7,
+      1,
+      8,
+      3
+    ],
+    "gold_idx": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": "5a79ecd05542996c55b2dca1",
+    "question": "Bobby Bowden coached which former Toronto Blue Jays minor league baseball player?",
+    "gold": "Chris Weinke",
+    "pred": "Derek Jeter",
+    "topk": [
+      6,
+      4,
+      8,
+      1
+    ],
+    "gold_idx": [
+      2,
+      6
+    ]
+  },
+  {
+    "id": "5ab9560855429970cfb8ea73",
+    "question": "How many people were killed in the collapse of the bridge featured in the drama film, The Public Domain ?",
+    "gold": "13 people",
+    "pred": "10",
+    "topk": [
+      1,
+      0,
+      3,
+      6
+    ],
+    "gold_idx": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "5ac01bca5542992a796dec8d",
+    "question": "What 2017 Christopher B. Landon directed American slasher film is Jessica Rothe starring in?",
+    "gold": "Happy Death Day",
+    "pred": "American Psycho",
+    "topk": [
+      8,
+      0,
+      1,
+      7
+    ],
+    "gold_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "5ab21682554299722f9b4ca9",
+    "question": "When was the cast member in the title role \"The Real Housewives of Beverly Hills\" and her staff at Vanderpump's West Hollywood, California, restaurant SUR born?",
+    "gold": "born 15 September 1960",
+    "pred": "1986",
+    "topk": [
+      4,
+      1,
+      6,
+      2
+    ],
+    "gold_idx": [
+      1,
+      6
+    ]
+  },
+  {
+    "id": "5abb7d8b5542996cc5e4a006",
+    "question": "Dan Balan co-wrote the song from what T.I. album?",
+    "gold": "Paper Trail",
+    "pred": "\"Back in Black\"",
+    "topk": [
+      8,
+      9,
+      7,
+      3
+    ],
+    "gold_idx": [
+      6,
+      8
+    ]
+  },
+  {
+    "id": "5a84ee4c5542997175ce1f2b",
+    "question": "WHich college is located in the United States, Grand Valley State University or Carleton University?",
+    "gold": "Carleton University",
+    "pred": "Grand Valley State University",
+    "topk": [
+      9,
+      4,
+      1,
+      0
+    ],
+    "gold_idx": [
+      1,
+      9
+    ]
+  },
+  {
+    "id": "5ac2cb3e5542996773102627",
+    "question": "What is the population of the settlement that is next smaller than the city with a population of 67,038 on the Argentine side of Tierra del Fuego?",
+    "gold": "1,382",
+    "pred": "1,023",
+    "topk": [
+      8,
+      0,
+      3,
+      2
+    ],
+    "gold_idx": [
+      0,
+      8
+    ]
+  },
+  {
+    "id": "5a7a46605542994f819ef1ad",
+    "question": "What year did Roy Rogers and his third wife star in a film directed by Frank McDonald?",
+    "gold": "1945",
+    "pred": "1956",
+    "topk": [
+      9,
+      5,
+      2,
+      1
+    ],
+    "gold_idx": [
+      2,
+      7
+    ]
+  },
+  {
+    "id": "5a9058e655429916514e747e",
+    "question": "David Burns is best known working for a radio service that covered what former English county?",
+    "gold": "former English county of Humberside",
+    "pred": "North East England",
+    "topk": [
+      4,
+      6,
+      8,
+      5
+    ],
+    "gold_idx": [
+      6,
+      8
+    ]
+  },
+  {
+    "id": "5ae71f06554299572ea54708",
+    "question": "Christopher de Haro provided the financial backing to what Portuguese explorer who organised the Spanish expedition to the East Indies from 1519 to 1522? ",
+    "gold": "Ferdinand Magellan",
+    "pred": "Christopher Columbus",
+    "topk": [
+      3,
+      7,
+      6,
+      4
+    ],
+    "gold_idx": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": "5a79caec5542994bb94570ad",
+    "question": "When was Leeds no longer called Elmet?",
+    "gold": "early 7th century",
+    "pred": "1964",
+    "topk": [
+      5,
+      7,
+      1,
+      6
+    ],
+    "gold_idx": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": "5adf39d55542992d7e9f92e6",
+    "question": "Heinrich Marschner was a composer who performed in the time frame after one of the first significant composers in what school of work?",
+    "gold": "Romantic",
+    "pred": "the Vienna School",
+    "topk": [
+      1,
+      2,
+      7,
+      4
+    ],
+    "gold_idx": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "5a77415b55429966f1a36cd2",
+    "question": "What actor from Northern Ireland born in 1983 starred in Whole Lotta Sole?",
+    "gold": "Martin \"Marty\" McCann",
+    "pred": "Tom Hardy",
+    "topk": [
+      8,
+      7,
+      0,
+      5
+    ],
+    "gold_idx": [
+      0,
+      8
+    ]
+  },
+  {
+    "id": "5a844fd35542990548d0b274",
+    "question": "What occupation did Nicholas Christopher and Roger Ebert share?",
+    "gold": "author",
+    "pred": "film critic",
+    "topk": [
+      7,
+      6,
+      3,
+      5
+    ],
+    "gold_idx": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": "5a80b9ae5542992bc0c4a7eb",
+    "question": "What Canadian actress was on the cover of Saturday Night Magazine?",
+    "gold": "Shenae Grimes-Beech",
+    "pred": "Diane Keaton",
+    "topk": [
+      4,
+      6,
+      1,
+      9
+    ],
+    "gold_idx": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "5ab28e2a5542993be8fa9947",
+    "question": "Who holds the world record for jumping over 6 buses and appeared on the British television series \"The Jump\"?",
+    "gold": "Eddie \"The Eagle\" Edwards",
+    "pred": "Michael Phelps",
+    "topk": [
+      8,
+      5,
+      3,
+      6
+    ],
+    "gold_idx": [
+      5,
+      8
+    ]
+  },
+  {
+    "id": "5adf39295542992d7e9f92df",
+    "question": "Which genus has more species, Apium or Elodea?",
+    "gold": "Apium",
+    "pred": "Apium",
+    "topk": [
+      3,
+      2,
+      5,
+      0
+    ],
+    "gold_idx": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "5ae1fb7a554299234fd04383",
+    "question": "What is the home town of a woman who guest-starred on Thug Mentality 1999?",
+    "gold": "Memphis",
+    "pred": "New York",
+    "topk": [
+      9,
+      1,
+      4,
+      6
+    ],
+    "gold_idx": [
+      1,
+      6
+    ]
+  },
+  {
+    "id": "5a84a8ce5542997175ce1f1c",
+    "question": "Who was the First Prophert to the sixth Pharaoh of the Eighteenth Dynasty?",
+    "gold": "Khonsu",
+    "pred": "Seth, the son of Seth and his wife Nefertari",
+    "topk": [
+      8,
+      3,
+      7,
+      0
+    ],
+    "gold_idx": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "5ae4818f5542995ad6573d5b",
+    "question": "After joining Saturday Night Live in 2012, Cecily Strong played which character in the sketch \"What Up with That\"?",
+    "gold": "Piper",
+    "pred": "The Queen",
+    "topk": [
+      6,
+      2,
+      1,
+      7
+    ],
+    "gold_idx": [
+      1,
+      6
+    ]
+  },
+  {
+    "id": "5a8141cc55429938b6142316",
+    "question": "Are both Cynthia Mort and George Archainbaud American?",
+    "gold": "yes",
+    "pred": "no",
+    "topk": [
+      3,
+      8,
+      9,
+      6
+    ],
+    "gold_idx": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": "5a8ca7d4554299240d9c21b8",
+    "question": "The telenova \"El Ardiente Secreto\" was based ona novel published under what pen name?",
+    "gold": "\"Currer Bell\"",
+    "pred": "Carmen Maria Machado",
+    "topk": [
+      5,
+      1,
+      3,
+      6
+    ],
+    "gold_idx": [
+      0,
+      6
+    ]
+  },
+  {
+    "id": "5ab5b701554299637185c5e7",
+    "question": "Han Chae-young was in the 2009 drama that aired on what network?",
+    "gold": "KBS2",
+    "pred": "KBS 1 & 2",
+    "topk": [
+      2,
+      6,
+      7,
+      1
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5ae7766455429952e35ea920",
+    "question": "Geoffrey Rush, one of the stars in Intolerable Cruelty, is a known actor and film producer in what country?",
+    "gold": "Australian actor and film producer",
+    "pred": "United Kingdom",
+    "topk": [
+      3,
+      6,
+      7,
+      8
+    ],
+    "gold_idx": [
+      5,
+      9
+    ]
+  },
+  {
+    "id": "5ac3a049554299741d48a2ba",
+    "question": "Philadelphia, Here I come! is a 1964 play by an Irish dramatist who has been likened to an Irish Checkhov?",
+    "gold": "Brian Patrick Friel",
+    "pred": "Finnish playwright and poet",
+    "topk": [
+      2,
+      7,
+      1,
+      6
+    ],
+    "gold_idx": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5a863114554299211dda2aa5",
+    "question": "What man won an Academy Award for his work on a drama based on the life of Rocky Graziano?",
+    "gold": "Francis Keogh Gleason",
+    "pred": "Tim Robbins",
+    "topk": [
+      7,
+      5,
+      0,
+      9
+    ],
+    "gold_idx": [
+      4,
+      7
+    ]
+  },
+  {
+    "id": "5ab2fccb5542991669774176",
+    "question": "Which rapper released the album Big Fish Theory featuring a number of styles of music including Detroit techno?",
+    "gold": "Vince Staples",
+    "pred": "Snoop Dogg",
+    "topk": [
+      7,
+      4,
+      3,
+      6
+    ],
+    "gold_idx": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": "5ae61bfd5542992663a4f261",
+    "question": "Which teams did Jimmy Butler play and what role did he play on these teams?",
+    "gold": "swingman",
+    "pred": "He played for the New York Yankees and the New Orleans Saints",
+    "topk": [
+      7,
+      8,
+      6,
+      9
+    ],
+    "gold_idx": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": "5a7561495542992db947364e",
+    "question": "What Hindi thriller directed by Deepak SHivdasani features choreography by Phulwa Khamkar?",
+    "gold": "Julie 2",
+    "pred": "The 2015 Hindi thriller \"Kamal\"",
+    "topk": [
+      1,
+      3,
+      5,
+      0
+    ],
+    "gold_idx": [
+      5,
+      8
+    ]
+  },
+  {
+    "id": "5ae52c0f5542992663a4f12e",
+    "question": "What major city is the Faith Lutheran Middle School and High School located by?",
+    "gold": "Las Vegas",
+    "pred": "Chicago",
+    "topk": [
+      0,
+      8,
+      1,
+      3
+    ],
+    "gold_idx": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "5a75d45f5542994ccc918630",
+    "question": "Which refers to more breeds, Stabyhoun or Griffon Bruxellois?",
+    "gold": "Griffon Bruxellois",
+    "pred": "Griffon Bruxellois",
+    "topk": [
+      4,
+      6,
+      5,
+      1
+    ],
+    "gold_idx": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": "5abbe188554299642a094ba0",
+    "question": "1995's \"Highest paid model\" according to Forbes played a what in the film \"Fair Game\"?",
+    "gold": "family law attorney",
+    "pred": "role as a model",
+    "topk": [
+      0,
+      8,
+      3,
+      7
+    ],
+    "gold_idx": [
+      0,
+      7
+    ]
+  },
+  {
+    "id": "5a88b513554299206df2b338",
+    "question": "What type of place does Regency Road, Adelaide and Klemzig, South Australia have in common?",
+    "gold": "city",
+    "pred": "town",
+    "topk": [
+      7,
+      3,
+      9,
+      0
+    ],
+    "gold_idx": [
+      6,
+      8
+    ]
+  },
+  {
+    "id": "5abac35055429901930fa8ae",
+    "question": "Which character did this Australian-American actress who appeared in the movie \"Felony\" play in the Australian soap opera \"Home and Away?\"",
+    "gold": "Angel Parrish",
+    "pred": "Maggie Smith",
+    "topk": [
+      0,
+      6,
+      1,
+      4
+    ],
+    "gold_idx": [
+      2,
+      6
+    ]
+  },
+  {
+    "id": "5a7fe0b55542994857a76818",
+    "question": "Are The Maine and Black both from Tempe, Arizona?",
+    "gold": "no",
+    "pred": "no",
+    "topk": [
+      6,
+      7,
+      8,
+      0
+    ],
+    "gold_idx": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "5ab29624554299545a2cf9b5",
+    "question": "Who was most well-known as a radio personality and disc jockey, John Garabedian or Charles A. Agemian?",
+    "gold": "John H. Garabedian",
+    "pred": "Charles A. Agemian",
+    "topk": [
+      1,
+      0,
+      5,
+      4
+    ],
+    "gold_idx": [
+      7,
+      9
+    ]
+  },
+  {
+    "id": "5a77d5e655429967ab1052cc",
+    "question": "Which one of Magna Publishing Group's tiles is a spinoff of the UK's Club International?",
+    "gold": "Club",
+    "pred": "Magna's own tiles",
+    "topk": [
+      7,
+      1,
+      3,
+      5
+    ],
+    "gold_idx": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "5a84c0885542994c784dda28",
+    "question": "In which year was the American politician, that both represented New York in the United States Senate and served as an adviser to President Richard Nixon, re-elected for a fourth term as U.S. Senator?",
+    "gold": "1994",
+    "pred": "2014",
+    "topk": [
+      8,
+      2,
+      0,
+      5
+    ],
+    "gold_idx": [
+      6,
+      8
+    ]
+  },
+  {
+    "id": "5a848a685542997b5ce3feae",
+    "question": "Who was the brother of the wife of the Democratic Party nomination for Vice President in 1972?",
+    "gold": "President John F. Kennedy",
+    "pred": "John F. Kennedy",
+    "topk": [
+      0,
+      3,
+      6,
+      7
+    ],
+    "gold_idx": [
+      7,
+      9
+    ]
+  },
+  {
+    "id": "5ae7edee554299540e5a56ad",
+    "question": "The Church of the Guanche People was founded in the city that is on the most populated island of what larger area?",
+    "gold": "Macaronesia",
+    "pred": "the Canary Islands",
+    "topk": [
+      7,
+      3,
+      8,
+      0
+    ],
+    "gold_idx": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": "5a8cdcb0554299441c6b9f33",
+    "question": "Was the film Splash released before the film Tangled? ",
+    "gold": "yes",
+    "pred": "no",
+    "topk": [
+      8,
+      7,
+      0,
+      3
+    ],
+    "gold_idx": [
+      0,
+      7
+    ]
+  },
+  {
+    "id": "5a8a3dd55542995153361360",
+    "question": "Did Nicholas Hytner and Maya Deren work in the same role in the film industry?",
+    "gold": "no",
+    "pred": "no",
+    "topk": [
+      8,
+      9,
+      5,
+      7
+    ],
+    "gold_idx": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "5adf434c5542993a75d26462",
+    "question": "When will the exhibition basketball game which will hold at the Staples Center in Los Angeles, California be played ",
+    "gold": "February 18, 2018",
+    "pred": "October 10, 2018",
+    "topk": [
+      3,
+      2,
+      5,
+      0
+    ],
+    "gold_idx": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "5abf30185542990832d3a13f",
+    "question": " Lou Cutell appeared on the third episode of the ninth season of an CBS sitcom that was what number episode overall?",
+    "gold": "187th",
+    "pred": "10th",
+    "topk": [
+      2,
+      8,
+      6,
+      9
+    ],
+    "gold_idx": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5ae5c27b554299546bf82f4c",
+    "question": "During the 2012-13 Blackppol F.C. season, their top scorer was what English professional footballer who plays as wither an attacking midfielder, winger, or forward for Premier League club Huddersfield Town?",
+    "gold": "Thomas Christopher Ince",
+    "pred": "forward",
+    "topk": [
+      3,
+      7,
+      9,
+      4
+    ],
+    "gold_idx": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "5add2dae5542992c1e3a2558",
+    "question": "Which building was completed first the W. R. Grace Building or 10 Hudson Yards?",
+    "gold": "W. R. Grace Building",
+    "pred": "10 Hudson Yards",
+    "topk": [
+      6,
+      2,
+      3,
+      7
+    ],
+    "gold_idx": [
+      0,
+      6
+    ]
+  },
+  {
+    "id": "5a721dfd55429971e9dc928b",
+    "question": "Which of Kylian Hazard's older brothers plays for the German Bundesliga club Borussia M\u00f6nchengladbach and the Belgium national team.",
+    "gold": "Thorgan Ganael Francis Hazard",
+    "pred": "Romain Hazard",
+    "topk": [
+      0,
+      5,
+      3,
+      4
+    ],
+    "gold_idx": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "5ade61fd554299728e26c704",
+    "question": "Get Off is an album by a group using which style originating in NYC in the early 1970s?",
+    "gold": "Disco",
+    "pred": "punk",
+    "topk": [
+      5,
+      0,
+      7,
+      4
+    ],
+    "gold_idx": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "5a8013e45542995d8a8ddf41",
+    "question": "Cowie Castle at Stonehaven, and Allardice Castle near Inverbervie, are part of a coastal chain of castles in Scotland overlooking which sea?",
+    "gold": "North Sea",
+    "pred": "the North Sea",
+    "topk": [
+      3,
+      2,
+      5,
+      4
+    ],
+    "gold_idx": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "5a7e2e3a55429934daa2fbe6",
+    "question": "Ryan Fredericks plays for a professional football club based in which city ?",
+    "gold": "London",
+    "pred": "London",
+    "topk": [
+      9,
+      0,
+      6,
+      4
+    ],
+    "gold_idx": [
+      0,
+      6
+    ]
+  },
+  {
+    "id": "5ac46a8b5542991943173980",
+    "question": "Was Princess Charlotte of Cambridge born before or after the repealing of the Royal Marriages Act 1772?",
+    "gold": "after",
+    "pred": "before",
+    "topk": [
+      5,
+      8,
+      7,
+      0
+    ],
+    "gold_idx": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": "5ae3ac665542994393b9e73f",
+    "question": "In the animal kingdom what type of sexuality is described as sexual behavior toward both male and females?",
+    "gold": "bisexual",
+    "pred": "sexual promiscuity",
+    "topk": [
+      7,
+      1,
+      6,
+      5
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5adfc97255429906c02daa41",
+    "question": "In which tier of the English football league system does the team which competed against Notts County in the 1894 FA Cup Final currently compete? ",
+    "gold": "second",
+    "pred": "Third Division",
+    "topk": [
+      0,
+      3,
+      8,
+      5
+    ],
+    "gold_idx": [
+      0,
+      6
+    ]
+  },
+  {
+    "id": "5ac03b395542992a796decce",
+    "question": "The screenplay for Alain Resnais' second film is who?",
+    "gold": "Alain Robbe-Grillet.",
+    "pred": "Jean-Luc Godard",
+    "topk": [
+      7,
+      8,
+      2,
+      5
+    ],
+    "gold_idx": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "5a74760b55429974ef308c03",
+    "question": "Which composer was born first out of Gaspare Spontini and Wolfgang Amadeus Mozart?",
+    "gold": "Gaspare Luigi Pacifico Spontini",
+    "pred": "Gaspare Spontini",
+    "topk": [
+      9,
+      2,
+      1,
+      0
+    ],
+    "gold_idx": [
+      0,
+      9
+    ]
+  },
+  {
+    "id": "5ac3090d5542990b17b154fc",
+    "question": "Operalia, The World Opera Competition helped launch the career of an operatic soprano of what nationality?",
+    "gold": "Bulgarian",
+    "pred": "Italian",
+    "topk": [
+      0,
+      8,
+      7,
+      4
+    ],
+    "gold_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "5a7148005542994082a3e759",
+    "question": "What tower house near Aberchirder, Aberdeenshire did David Gregory inherit?",
+    "gold": "Kinnairdy Castle",
+    "pred": "St Mary's Tower House",
+    "topk": [
+      3,
+      4,
+      2,
+      6
+    ],
+    "gold_idx": [
+      0,
+      6
+    ]
+  },
+  {
+    "id": "5ae01fcf554299025d62a411",
+    "question": "What type of students attend the school adjacent to Pilgram Hospital?",
+    "gold": "girls aged 11 to 18",
+    "pred": "primary school",
+    "topk": [
+      7,
+      2,
+      4,
+      0
+    ],
+    "gold_idx": [
+      4,
+      9
+    ]
+  },
+  {
+    "id": "5ab30336554299166977417c",
+    "question": "Which American comedian starred in the original cast of Saturday Night Live and played Stan Winters in the sitcom Martin?",
+    "gold": "Garrett Morris",
+    "pred": "John Travolta",
+    "topk": [
+      1,
+      8,
+      3,
+      7
+    ],
+    "gold_idx": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": "5a7602d8554299109176e5fb",
+    "question": "What actress and and writer starred with Jennifer Saunders in bothe \"The Supergrass\" and \"French and Saunders\"?",
+    "gold": "Dawn Roma French",
+    "pred": "Kathleen Turner",
+    "topk": [
+      4,
+      2,
+      0,
+      3
+    ],
+    "gold_idx": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "5ab56db7554299494045efc6",
+    "question": "Maine State Route 111 connects Alfred to Biddenford but what county is Alfred in?",
+    "gold": "York County",
+    "pred": "Hampshire",
+    "topk": [
+      0,
+      4,
+      7,
+      1
+    ],
+    "gold_idx": [
+      0,
+      6
+    ]
+  },
+  {
+    "id": "5abcfd7e5542993a06baf9df",
+    "question": "Igor Naming Agency named a resort located where?",
+    "gold": "Las Vegas Strip",
+    "pred": "Bordeaux",
+    "topk": [
+      3,
+      2,
+      1,
+      5
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5a8a6a2155429930ff3c0dd0",
+    "question": "Which tennis player is from a country closer to Canada, Ken Flach or Lucie \u0160af\u00e1\u0159ov\u00e1?",
+    "gold": "Kenneth Eliot Flach",
+    "pred": "Lucie \u0160af\u00e1\u0159ov\u00e1",
+    "topk": [
+      9,
+      2,
+      4,
+      0
+    ],
+    "gold_idx": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "5a7a0e1e5542990783324e1a",
+    "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+    "gold": "Scotch Collie",
+    "pred": "Manchester Terrier",
+    "topk": [
+      1,
+      2,
+      3,
+      7
+    ],
+    "gold_idx": [
+      1,
+      7
+    ]
+  },
+  {
+    "id": "5a790f5e55429970f5fffe40",
+    "question": "What date did the movement Hans Knirsch was an activist for officially gain traction?",
+    "gold": "November 15, 1903",
+    "pred": "1920",
+    "topk": [
+      8,
+      2,
+      3,
+      6
+    ],
+    "gold_idx": [
+      2,
+      8
+    ]
+  },
+  {
+    "id": "5ae4ea2a5542993aec5ec0ee",
+    "question": "The defending EFL Championship winner will qualify for which upcoming group stage if it wins all of its participating football tournaments?",
+    "gold": "2018\u201319 UEFA Europa League",
+    "pred": "Group stage",
+    "topk": [
+      0,
+      6,
+      8,
+      2
+    ],
+    "gold_idx": [
+      2,
+      6
+    ]
+  },
+  {
+    "id": "5abb61735542993f40c73aef",
+    "question": "Who had more of their English novels turned into Oscar-nominated films, Raja Rao or Pat Conroy?",
+    "gold": "Two of his novels, \"The Prince of Tides\" and \"The Great Santini\", were made into Oscar-nominated films.",
+    "pred": "Raja Rao",
+    "topk": [
+      3,
+      5,
+      0,
+      4
+    ],
+    "gold_idx": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": "5abb01025542992ccd8e7eab",
+    "question": "Who supervised the sting operation that implicated Evelyn Dawn Knight?",
+    "gold": "Federal Bureau of Investigation",
+    "pred": "the Metropolitan Police",
+    "topk": [
+      4,
+      2,
+      5,
+      8
+    ],
+    "gold_idx": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "5a7a098d5542996c55b2dce3",
+    "question": "Dane William DeHaan starred in a movie directed by Anton Corbijn along side which actor?",
+    "gold": "Robert Pattinson",
+    "pred": "Johannes Vermeulen",
+    "topk": [
+      4,
+      3,
+      6,
+      7
+    ],
+    "gold_idx": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "5aba7bb4554299232ef4a2ee",
+    "question": "The 59th Infantry Division covered the deployment of the 35th Infantry during the Allied operation during what war?",
+    "gold": "World War II",
+    "pred": "World War II",
+    "topk": [
+      4,
+      2,
+      1,
+      9
+    ],
+    "gold_idx": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "5ae5d19155429929b08079bc",
+    "question": "What nationality is the director of the 1971 film Wake in Fright?",
+    "gold": "Velichko Todorov Tsochev) is a Bulgarian-Canadian",
+    "pred": "American",
+    "topk": [
+      6,
+      8,
+      5,
+      1
+    ],
+    "gold_idx": [
+      1,
+      6
+    ]
+  },
+  {
+    "id": "5ae51b495542993aec5ec146",
+    "question": "On December 4, 1872, the ship Mary Celeste, captained by Benjamin Briggs, was found unmanned and drifting in the Altantic Ocean near what location?",
+    "gold": "Straits of Gibraltar",
+    "pred": "the Bahamas",
+    "topk": [
+      7,
+      8,
+      1,
+      6
+    ],
+    "gold_idx": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "5a8759395542994775f607e0",
+    "question": "Who is older between the brothers that J. Todd Anderson has primarily worked with?",
+    "gold": "Joel David Coen",
+    "pred": "John Anderson",
+    "topk": [
+      2,
+      1,
+      6,
+      9
+    ],
+    "gold_idx": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "5a8a21a455429930ff3c0caf",
+    "question": "On May 25, 2017 Greg Gianforte won the special election following the resignation of a politican that current holds what position?",
+    "gold": "United States Secretary of the Interior",
+    "pred": "Governor of New Hampshire",
+    "topk": [
+      5,
+      4,
+      9,
+      3
+    ],
+    "gold_idx": [
+      2,
+      6
+    ]
+  },
+  {
+    "id": "5abfa0285542990832d3a171",
+    "question": "Was Hoobastank or Fountains of Wayne formed first?",
+    "gold": "Hoobastank",
+    "pred": "Hoobastank",
+    "topk": [
+      6,
+      2,
+      0,
+      7
+    ],
+    "gold_idx": [
+      2,
+      6
+    ]
+  },
+  {
+    "id": "5a74be7a55429929fddd84e4",
+    "question": "What is served shaken with ice and should not be mistaken with the name Margarita?",
+    "gold": "A margarita",
+    "pred": "Martini",
+    "topk": [
+      3,
+      7,
+      5,
+      9
+    ],
+    "gold_idx": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "5a8430335542996488c2e500",
+    "question": "Orlando Maturana had to compete with what other Colombian retired footballer for the national football team's striker position?",
+    "gold": "Adolfo Jos\u00e9 Valencia Mosquera",
+    "pred": "Cristian Roca",
+    "topk": [
+      4,
+      6,
+      3,
+      7
+    ],
+    "gold_idx": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5a7c8a3b55429935c91b5204",
+    "question": "Town's first season in their new stadium was under the leadership of an English Football manager who was born when?",
+    "gold": "1 December 1948",
+    "pred": "1947",
+    "topk": [
+      0,
+      3,
+      1,
+      8
+    ],
+    "gold_idx": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "5a8d5fc6554299585d9e37c6",
+    "question": "What's the name of the fantasy film starring Sarah Bolger, featuring a New England family who discover magical creatures around their estate?",
+    "gold": "The Spiderwick Chronicles",
+    "pred": "The Princess Bride",
+    "topk": [
+      6,
+      2,
+      9,
+      3
+    ],
+    "gold_idx": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "5a8e3dc05542995085b37401",
+    "question": "Which case was decided first, Selle v. Gibb or Reynolds v. Sims?",
+    "gold": "1964",
+    "pred": "Selle v. Gibb",
+    "topk": [
+      4,
+      2,
+      6,
+      8
+    ],
+    "gold_idx": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "5ab47d765542991751b4d78f",
+    "question": "Who designed the hotel that held the IFBB professional bodybuilding competition in September 1991?",
+    "gold": "architect Michael Graves",
+    "pred": "The hotel was designed by the architect, John McMillan.",
+    "topk": [
+      7,
+      0,
+      9,
+      3
+    ],
+    "gold_idx": [
+      5,
+      7
+    ]
+  }
+]

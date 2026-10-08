@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+*.pt
+official_clara/.venv/
+official_clara/ml-clara/
+official_clara/flash_attn_stub/
+official_clara/data/
+official_clara/runs/

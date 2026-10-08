@@ -1,0 +1,107 @@
+{
+  "dataset": "2wiki",
+  "n_questions": 100,
+  "decode_tokens": 16,
+  "gpu": "NVIDIA L40S",
+  "nested_run": "runs/qwen/2wiki/r2_nested_M32_all_e6__learned_s42",
+  "fixed_run": "runs/qwen/2wiki/r2_fixed_M16_e6_s42",
+  "rows": [
+    {
+      "setting": "nested, 4 docs x 4",
+      "memory_vectors": 16,
+      "input_positions": 108.89,
+      "prefill_ms": 21.197165828198195,
+      "decode_ms_per_token": 19.194476160919294,
+      "total_ms": 328.3087844029069,
+      "kv_cache_kb": 1498.68,
+      "F1": 35.83124098124098
+    },
+    {
+      "setting": "nested, 4 docs x 8",
+      "memory_vectors": 32,
+      "input_positions": 124.89,
+      "prefill_ms": 21.01092366501689,
+      "decode_ms_per_token": 19.19394949800335,
+      "total_ms": 328.11411563307047,
+      "kv_cache_kb": 1690.6799999999998,
+      "F1": 36.18650793650794
+    },
+    {
+      "setting": "nested, 8 docs x 4",
+      "memory_vectors": 32,
+      "input_positions": 152.89,
+      "prefill_ms": 21.277899388223886,
+      "decode_ms_per_token": 19.172236236045137,
+      "total_ms": 328.0336791649461,
+      "kv_cache_kb": 2026.6799999999998,
+      "F1": 34.12489177489177
+    },
+    {
+      "setting": "nested, 4 docs x 16",
+      "memory_vectors": 64,
+      "input_positions": 156.89,
+      "prefill_ms": 21.277750842273235,
+      "decode_ms_per_token": 19.184398028301075,
+      "total_ms": 328.22811929509044,
+      "kv_cache_kb": 2074.68,
+      "F1": 37.37794427794427
+    },
+    {
+      "setting": "nested, 8 docs x 8",
+      "memory_vectors": 64,
+      "input_positions": 184.89,
+      "prefill_ms": 21.35530486702919,
+      "decode_ms_per_token": 19.173289590980858,
+      "total_ms": 328.1279383227229,
+      "kv_cache_kb": 2410.68,
+      "F1": 36.63364598364598
+    },
+    {
+      "setting": "nested, 4 docs x 32",
+      "memory_vectors": 128,
+      "input_positions": 220.89,
+      "prefill_ms": 21.407077088952065,
+      "decode_ms_per_token": 19.128626416204497,
+      "total_ms": 327.465099748224,
+      "kv_cache_kb": 2842.68,
+      "F1": 37.34011826953003
+    },
+    {
+      "setting": "CLaRa-style fixed-16, 4 docs x 16",
+      "memory_vectors": 64,
+      "input_positions": 156.89,
+      "prefill_ms": 21.745929028838873,
+      "decode_ms_per_token": 19.174818939063698,
+      "total_ms": 328.54303205385804,
+      "kv_cache_kb": 2074.68,
+      "F1": 37.66434676434676
+    },
+    {
+      "setting": "raw text, BM25 top-4",
+      "memory_vectors": null,
+      "input_positions": 569.39,
+      "prefill_ms": 15.430739149451256,
+      "decode_ms_per_token": 13.415688241366297,
+      "total_ms": 230.081751011312,
+      "kv_cache_kb": 7024.68,
+      "F1": null
+    },
+    {
+      "setting": "raw text, BM25 top-8",
+      "memory_vectors": null,
+      "input_positions": 904.61,
+      "prefill_ms": 16.318675596266985,
+      "decode_ms_per_token": 13.401851349044591,
+      "total_ms": 230.74829718098044,
+      "kv_cache_kb": 11047.32,
+      "F1": null
+    }
+  ],
+  "offline": {
+    "compress_ms_per_passage": 25.0721980817616,
+    "query_ms": 24.94955714792013,
+    "scoring_ms": 0.40759751573204994,
+    "index_kb_per_passage_nested": 56.0,
+    "index_kb_per_passage_fixed_rates_4_8_16_32": 105.0
+  }
+}

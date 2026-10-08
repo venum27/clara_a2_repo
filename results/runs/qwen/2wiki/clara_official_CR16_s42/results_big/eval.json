@@ -1,0 +1,131 @@
+{
+  "qa": {
+    "results": {
+      "uniform@64": {
+        "EM": {
+          "mean": 28.96666666666667,
+          "lo": 27.366666666666667,
+          "hi": 30.500833333333325
+        },
+        "F1": {
+          "mean": 31.937265604765603,
+          "lo": 30.321484737484738,
+          "hi": 33.47557444869945
+        },
+        "n": 3000,
+        "budgets": [
+          16.0,
+          16.0,
+          16.0,
+          16.0
+        ],
+        "context_vectors": 64.0,
+        "F1_by_gold_rank": {
+          "rank 1": {
+            "mean": 32.99850616609364,
+            "n": 1629
+          },
+          "not retrieved": {
+            "mean": 27.635494375754117,
+            "n": 385
+          },
+          "rank 2": {
+            "mean": 31.73862211434466,
+            "n": 519
+          },
+          "rank 3+": {
+            "mean": 32.00261254329777,
+            "n": 467
+          }
+        }
+      }
+    },
+    "paired_tests": {},
+    "gold_rank_counts": {
+      "not retrieved": 385,
+      "rank 1": 1629,
+      "rank 2": 519,
+      "rank 3+": 467
+    }
+  },
+  "retrieval": {
+    "query reasoner (after E2E)": {
+      "hit@1": {
+        "mean": 54.300000000000004,
+        "lo": 52.56666666666666,
+        "hi": 56.034166666666664
+      },
+      "all_gold@1": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "hit@2": {
+        "mean": 71.6,
+        "lo": 70.03333333333333,
+        "hi": 73.2
+      },
+      "all_gold@2": {
+        "mean": 17.2,
+        "lo": 15.866666666666667,
+        "hi": 18.566666666666666
+      },
+      "hit@3": {
+        "mean": 81.0,
+        "lo": 79.63333333333334,
+        "hi": 82.36666666666666
+      },
+      "all_gold@3": {
+        "mean": 27.73333333333333,
+        "lo": 26.16583333333333,
+        "hi": 29.366666666666667
+      },
+      "hit@5": {
+        "mean": 91.53333333333333,
+        "lo": 90.5,
+        "hi": 92.53416666666666
+      },
+      "all_gold@5": {
+        "mean": 49.53333333333333,
+        "lo": 47.86666666666667,
+        "hi": 51.46666666666667
+      }
+    },
+    "random (expected)": {
+      "hit@1": {
+        "mean": 24.479999999999997
+      },
+      "hit@2": {
+        "mean": 44.248888888888885
+      },
+      "hit@3": {
+        "mean": 60.05333333333333
+      },
+      "hit@5": {
+        "mean": 82.22222222222223
+      },
+      "all_gold@1": {
+        "mean": 0.0
+      },
+      "all_gold@2": {
+        "mean": 1.7244444444444444
+      },
+      "all_gold@3": {
+        "mean": 5.173333333333333
+      },
+      "all_gold@5": {
+        "mean": 17.777777777777786
+      }
+    }
+  },
+  "meta": {
+    "run_dir": "runs/qwen/2wiki/clara_official_CR16_s42",
+    "dataset": "2wiki",
+    "n_eval": 3000,
+    "k": 4,
+    "implementation": "official CLaRa code (apple/ml-clara), patched for environment only",
+    "checkpoint": "official_clara/runs/2wiki_CR16/stage2",
+    "memory_vectors_per_doc": 16,
+    "ranking_matches_official_topk": 0.9903333333333333
+  }
+}

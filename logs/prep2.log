@@ -1,0 +1,8 @@
+nohup: ignoring input
+  note: GPU 1 already has 5606 MiB in use and is 0% busy (other users?). Jobs still run; see ./scripts/00_check_gpus.sh
+synthesising 2wiki on GPU 1
+synthesis running on both GPUs (follow with: tail -f logs/synth_*.log); waiting...
+N_TRAIN=2000 N_EVAL=500 MAX_DOCS=1500 SYNTH=Qwen/Qwen2.5-14B-Instruct
+[hotpotqa] 1500 passages | verified simple QA: 3998 | complex QA: 1256 | heldout passages: 147 -> data/hotpotqa_scp.json
+[2wiki] 1500 passages | verified simple QA: 4018 | complex QA: 1226 | heldout passages: 147 -> data/2wiki_scp.json
+next: ./scripts/02_pilot.sh

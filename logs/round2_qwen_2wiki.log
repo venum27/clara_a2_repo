@@ -1,0 +1,98 @@
+######## seed 42 | qwen | 2wiki | r2_nested_M32_all_e6
+[SCP nested] qwen/2wiki: 1353 passages | prefixes [4, 8, 16, 32] | trainable params 4,354,048 | device cuda
+SCP epoch 1/6: 100%|██████████| 1353/1353 [1:49:45<00:00,  4.87s/it]
+  epoch 1: CE by prefix m=4:2.667 m=8:2.665 m=16:2.678 m=32:2.704 | MSE 0.9243
+SCP epoch 2/6: 100%|██████████| 1353/1353 [1:54:13<00:00,  5.07s/it]
+  epoch 2: CE by prefix m=4:2.210 m=8:2.195 m=16:2.190 m=32:2.197 | MSE 0.2757
+SCP epoch 3/6: 100%|██████████| 1353/1353 [1:44:29<00:00,  4.63s/it]
+  epoch 3: CE by prefix m=4:1.819 m=8:1.751 m=16:1.718 m=32:1.721 | MSE 0.3201
+SCP epoch 4/6: 100%|██████████| 1353/1353 [1:43:40<00:00,  4.60s/it]
+  epoch 4: CE by prefix m=4:1.514 m=8:1.419 m=16:1.398 m=32:1.398 | MSE 0.3484
+SCP epoch 5/6: 100%|██████████| 1353/1353 [1:44:10<00:00,  4.62s/it]
+  epoch 5: CE by prefix m=4:1.272 m=8:1.179 m=16:1.144 m=32:1.140 | MSE 0.3828
+SCP epoch 6/6: 100%|██████████| 1353/1353 [1:40:45<00:00,  4.47s/it]
+/home/venugopala.m/clara_nested/nclara/modeling.py:208: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(os.path.join(in_dir, "lora_state.pt"), map_location=self.device)
+/home/venugopala.m/clara_nested/nclara/modeling.py:215: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  mem = torch.load(os.path.join(in_dir, "mem_embeddings.pt"), map_location=self.device)
+  epoch 6: CE by prefix m=4:1.091 m=8:0.999 m=16:0.951 m=32:0.946 | MSE 0.4013
+  adapter changes since start: compressor 192/192, generator 192/192, query_reasoner 0/192
+  saved -> runs/qwen/2wiki/r2_nested_M32_all_e6_s42/scp
+caching compressed passages:   0%|          | 0/1000 [00:00<?, ?it/s]We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+caching compressed passages: 100%|██████████| 1000/1000 [08:57<00:00,  1.86it/s]
+[E2E] 1000 questions | 6123 cached passages | copied 192 tensors compressor->query_reasoner | k=4 | r=16 | budget=64 policies=['uniform', 'top_heavy']
+E2E epoch 1/3: 100%|██████████| 1000/1000 [06:05<00:00,  2.73it/s]
+  epoch 1: loss 1.605 | train hit@4 93.9% | all-gold@4 46.1%
+E2E epoch 2/3: 100%|██████████| 1000/1000 [06:08<00:00,  2.71it/s]
+  epoch 2: loss 1.129 | train hit@4 97.0% | all-gold@4 53.6%
+E2E epoch 3/3: 100%|██████████| 1000/1000 [06:06<00:00,  2.73it/s]
+  epoch 3: loss 0.844 | train hit@4 97.7% | all-gold@4 55.5%
+  compressor changed 0/192 (expect 0) | query_reasoner 192/192 | generator 192/192
+  saved -> runs/qwen/2wiki/r2_nested_M32_all_e6_s42/e2e
+scp_curve:   0%|          | 0/147 [00:00<?, ?it/s]/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/venugopala.m/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:589: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+scp_curve: 100%|██████████| 147/147 [13:31<00:00,  5.52s/it]
+compressing eval passages: 100%|██████████| 300/300 [03:28<00:00,  1.44it/s]
+oracle: 100%|██████████| 300/300 [08:04<00:00,  1.62s/it]
+qa: 100%|██████████| 300/300 [11:20<00:00,  2.27s/it]
+results -> runs/qwen/2wiki/r2_nested_M32_all_e6_s42/results/eval.json and summary.md
+compressing gold passages (runs/qwen/2wiki/r2_nested_M32_all_e6_s42): 100%|██████████| 300/300 [00:48<00:00,  6.21it/s]
+answering: 100%|██████████| 300/300 [05:54<00:00,  1.18s/it]
+######## seed 42 | qwen | 2wiki | r2_nested_M32_all_e6__learned
+caching compressed passages: 100%|██████████| 1000/1000 [09:15<00:00,  1.80it/s]
+[E2E] 1000 questions | 6123 cached passages | copied 192 tensors compressor->query_reasoner | k=4 | r=16 | learned budgets, totals [32, 64], lengths [4, 8, 16, 32]
+E2E epoch 1/3: 100%|██████████| 1000/1000 [09:11<00:00,  1.81it/s]
+  epoch 1: loss 1.606 | train hit@4 93.7% | all-gold@4 44.3% | rank-1 share 0.25 | split entropy 2.54 | budget gold 12.2 vs other 12.3
+E2E epoch 2/3: 100%|██████████| 1000/1000 [08:00<00:00,  2.08it/s]
+  epoch 2: loss 1.131 | train hit@4 97.0% | all-gold@4 54.8% | rank-1 share 0.26 | split entropy 2.54 | budget gold 11.9 vs other 12.0
+E2E epoch 3/3: 100%|██████████| 1000/1000 [07:01<00:00,  2.37it/s]
+  epoch 3: loss 0.872 | train hit@4 97.9% | all-gold@4 57.5% | rank-1 share 0.25 | split entropy 2.56 | budget gold 12.2 vs other 12.0
+  compressor changed 0/192 (expect 0) | query_reasoner 192/192 | generator 192/192
+  saved -> runs/qwen/2wiki/r2_nested_M32_all_e6__learned_s42/e2e
+scp_curve: 100%|██████████| 147/147 [10:28<00:00,  4.28s/it]
+compressing eval passages: 100%|██████████| 300/300 [02:41<00:00,  1.86it/s]
+oracle: 100%|██████████| 300/300 [06:33<00:00,  1.31s/it]
+/home/venugopala.m/clara_nested/nclara/budget.py:90: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(path, map_location=device)
+qa: 100%|██████████| 300/300 [08:57<00:00,  1.79s/it]
+results -> runs/qwen/2wiki/r2_nested_M32_all_e6__learned_s42/results/eval.json and summary.md
+compressing gold passages (runs/qwen/2wiki/r2_nested_M32_all_e6__learned_s42): 100%|██████████| 300/300 [00:42<00:00,  6.98it/s]
+answering: 100%|██████████| 300/300 [04:58<00:00,  1.00it/s]
+######## seed 42 | qwen | 2wiki | r2_fixed_M16_e6
+[SCP fixed] qwen/2wiki: 1353 passages | prefixes [16] | trainable params 4,339,712 | device cuda
+SCP epoch 1/6: 100%|██████████| 1353/1353 [27:18<00:00,  1.21s/it]
+  epoch 1: CE by prefix m=16:2.701 | MSE 1.0742
+SCP epoch 2/6: 100%|██████████| 1353/1353 [27:09<00:00,  1.20s/it]
+  epoch 2: CE by prefix m=16:2.168 | MSE 0.3692
+SCP epoch 3/6: 100%|██████████| 1353/1353 [27:34<00:00,  1.22s/it]
+  epoch 3: CE by prefix m=16:1.719 | MSE 0.3312
+SCP epoch 4/6: 100%|██████████| 1353/1353 [27:02<00:00,  1.20s/it]
+  epoch 4: CE by prefix m=16:1.392 | MSE 0.3134
+SCP epoch 5/6: 100%|██████████| 1353/1353 [27:12<00:00,  1.21s/it]
+  epoch 5: CE by prefix m=16:1.150 | MSE 0.3174
+SCP epoch 6/6: 100%|██████████| 1353/1353 [27:19<00:00,  1.21s/it]
+  epoch 6: CE by prefix m=16:0.950 | MSE 0.3359
+  adapter changes since start: compressor 192/192, generator 192/192, query_reasoner 0/192
+  saved -> runs/qwen/2wiki/r2_fixed_M16_e6_s42/scp
+caching compressed passages: 100%|██████████| 1000/1000 [07:27<00:00,  2.23it/s]
+[E2E] 1000 questions | 6123 cached passages | copied 192 tensors compressor->query_reasoner | k=4 | r=16 | budget=64 policies=['uniform']
+E2E epoch 1/3: 100%|██████████| 1000/1000 [05:14<00:00,  3.18it/s]
+  epoch 1: loss 1.638 | train hit@4 88.9% | all-gold@4 37.1%
+E2E epoch 2/3: 100%|██████████| 1000/1000 [05:13<00:00,  3.19it/s]
+  epoch 2: loss 1.121 | train hit@4 93.4% | all-gold@4 46.7%
+E2E epoch 3/3: 100%|██████████| 1000/1000 [05:08<00:00,  3.24it/s]
+  epoch 3: loss 0.841 | train hit@4 94.8% | all-gold@4 47.7%
+  compressor changed 0/192 (expect 0) | query_reasoner 192/192 | generator 192/192
+  saved -> runs/qwen/2wiki/r2_fixed_M16_e6_s42/e2e
+scp_curve: 100%|██████████| 147/147 [07:57<00:00,  3.25s/it]
+compressing eval passages: 100%|██████████| 300/300 [02:44<00:00,  1.83it/s]
+oracle: 100%|██████████| 300/300 [05:30<00:00,  1.10s/it]
+qa: 100%|██████████| 300/300 [06:47<00:00,  1.36s/it]
+results -> runs/qwen/2wiki/r2_fixed_M16_e6_s42/results/eval.json and summary.md
+compressing gold passages (runs/qwen/2wiki/r2_fixed_M16_e6_s42): 100%|██████████| 300/300 [00:39<00:00,  7.66it/s]
+answering: 100%|██████████| 300/300 [04:53<00:00,  1.02it/s]
+summary of 21 runs -> runs/results_summary.md

@@ -1,0 +1,31 @@
+Flair 2 setup check, 2026-10-03 12:38 | python 3.10.12 (/usr/bin/python3)
+downloads allowed: True
+== packages
+[PASS] torch: 2.4.0 (need >= 2.1)
+[PASS] transformers: 4.43.4 (need >= 4.43)
+[PASS] peft: 0.20.0 (need >= 0.12)
+[PASS] accelerate: 1.14.0 (need >= 0.30)
+[PASS] datasets: 2.19.1 (need >= 2.16)
+[PASS] huggingface_hub: 0.36.2 (need >= 0.23)
+[PASS] tokenizers: 0.19.1 (need >= 0.19)
+[PASS] numpy: 1.26.4 (need >= 1.24)
+[PASS] tqdm: 4.67.3 (need >= 4.0)
+[PASS] rank_bm25: installed
+== GPUs
+[PASS] CUDA: torch 2.4.0+cu121 built for CUDA 12.1; available: True
+       GPU 0: NVIDIA L40S, 17.2 of 44.4 GiB free, bf16 True
+       GPU 1: NVIDIA L40S, 34.4 of 44.4 GiB free, bf16 True
+== backbones (loaded for real, on CPU; downloaded first if missing)
+[PASS] backbone qwen: Qwen/Qwen2.5-0.5B-Instruct | 494M parameters | tokenizer Qwen2TokenizerFast (7 tokens for a test sentence)
+[PASS] backbone t5: google/flan-t5-base | 248M parameters | tokenizer T5TokenizerFast (8 tokens for a test sentence)
+== data synthesiser (files checked, not loaded)
+[PASS] synthesiser Qwen/Qwen2.5-14B-Instruct: 8/8 weight files, 27.5 GiB, tokenizer: True
+       cached models: BAAI/bge-large-en-v1.5, BAAI/bge-m3, BAAI/bge-small-en-v1.5, Qwen/Qwen2.5-0.5B-Instruct, Qwen/Qwen2.5-14B-Instruct, bert-base-uncased, google/flan-t5-base, jinaai/jina-bert-implementation, jinaai/jina-embeddings-v2-base-en, jinaai/jina-embeddings-v2-small-en, sentence-transformers/all-MiniLM-L6-v2
+== datasets (loaded; downloaded first if missing)
+[PASS] dataset hotpotqa: hotpotqa/hotpot_qa (distractor) validation: 7405 questions; first one has 10 paragraphs, 2 gold
+[PASS] dataset 2wiki: framolfese/2WikiMultihopQA (default) validation: 12576 questions; first one has 10 paragraphs, 2 gold
+== disk
+[PASS] disk space: 128 GiB free in home (runs need a few GiB)
+============================================================
+ALL CHECKS PASSED -- next: ./scripts/01_prepare_data.sh
+============================================================
