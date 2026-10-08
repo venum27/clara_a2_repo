@@ -51,7 +51,8 @@ budget head; `_s42/_s43/_s44` is the seed; `clara_official_CR16` is the official
 ./scripts/08_round2_seeds.sh       # E2E seeds 43 and 44
 ./scripts/09_breadth_latency.sh    # breadth test and latency benchmark
 ./scripts/10_big_eval.sh           # 3,000-question evaluation
-./scripts/12_ablation_s1.sh        # ablation: budget head with one sampled split./scripts/status.sh                # progress at any time
+./scripts/12_ablation_s1.sh        # ablation: budget head with one sampled split
+./scripts/status.sh                # progress at any time
 ```
 
 Every script runs in the background, writes to `logs/`, and resumes where it stopped. `python3 sanity_checks.py
